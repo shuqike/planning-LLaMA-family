@@ -24,6 +24,8 @@ def extract_topper(target: str, state: str) -> str:
 
 
 def count_obstacles(target: str, state: str) -> int:
+    if "is holding " + target in state or target + " is in the hand" in state:
+        return 0
     cnt = 0
     while True:
         if target + " is clear" in state:
