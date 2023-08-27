@@ -1,18 +1,35 @@
 import re
 import torch
+from typing import Union
 
 
-def extract_color(s):
+def extract_color(s: str) -> Union[str, None]:
     match = re.search(r'the (\w+) block', s)
     if match:
         return match.group(1)
     return None
 
 
-def extract_block(s):
+def extract_block(s: str) -> str:
     return "the {} block".format(
         extract_color(s)
     )
+
+
+def extract_topper(target: str, state: str) -> str:
+    match = re.search(r'the (\w+) block is on top of ' + target, state)
+    return "the {} block".format(
+        match.group(1)
+    )
+
+
+def count_obstacles(target: str, state: str) -> int:
+    cnt = 0
+    while True:
+        if target + " is clear" in state:
+            return cnt
+        cnt += 1
+        target = extract_topper(target, state)
 
 
 def generate_all_actions(state):

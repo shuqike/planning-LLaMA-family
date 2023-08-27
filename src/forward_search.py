@@ -28,17 +28,17 @@ class ForwardSearch:
 
     def heuristic_sampler(self, node: AbsNode) -> List[AbsNode]:
         children = node.get_children()
-        children.sort(reverse=True, key=lambda x: x._prob_r)
+        children.sort(reverse=True, key=lambda x: x._prob_r*x._alpha+x._v_rand)
         return children[:self.sample_per_node]\
             if self.sample_per_node != 0 else children
 
     def epsgreedy_sampler(self, node: AbsNode) -> List[AbsNode]:
         children = node.get_children()
-        children.sort(reverse=True, key=lambda x: x._prob_r)
+        children.sort(reverse=True, key=lambda x: x._prob_r*x._alpha+x._v_rand)
 
     def random_sampler(self, node: AbsNode) -> List[AbsNode]:
         children = node.get_children()
-        weights = np.array([child._prob_r for child in children])
+        weights = np.array([child._prob_r*child._alpha+child._v_rand for child in children])
         weights /= np.sum(weights)
         return np.random.choice(
             children,

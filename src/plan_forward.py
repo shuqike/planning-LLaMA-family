@@ -5,7 +5,7 @@ from copy import deepcopy
 from typing import List, Tuple
 from src.models import QueryLM
 from src.forward_search import ForwardSearch, AbsNode
-from src.utils.blocksworld import apply_change, generate_all_actions, get_world_change, extract_block
+from src.utils.blocksworld import apply_change, generate_all_actions, get_world_change, extract_block, count_obstacles
 
 
 class StateNode(AbsNode):
@@ -135,16 +135,14 @@ def forward_plan(initial_state: str,
         meetings = [g in new_state for g in final_goals]
         if sum(meetings) == len(meetings):
             return new_prompt, len(meetings) * 1e3
-        final_goal_alignment = 0
-        doorway_goal_alignment = 0
-        inprocess_goal_alignment = 0
+        goal_alignment = 0
         print('the new state is:', new_state)
         print('counting goals...')
         for fg in final_goals:
             print('current fg=', fg)
             if fg in new_state:
                 print('final goal aligned++')
-                final_goal_alignment += 1
+                goal_alignment += 1
                 continue
             topper = extract_block(
                 fg.split("top of")[0]
@@ -152,16 +150,18 @@ def forward_plan(initial_state: str,
             bottomer = extract_block(
                 fg.split("top of")[1]
             )
-            if bottomer + " is clear" in new_state:
-                if 'holding ' + topper in new_state:
-                    print('doorway goal++')
-                    doorway_goal_alignment += 1
-                else:
-                    print('inprogress goal++')
-                    inprocess_goal_alignment += 1
-        v = final_goal_alignment*3 + doorway_goal_alignment*2 + inprocess_goal_alignment
-        print('vrand=', v)
-        return new_prompt, v
+            print('topper', topper)
+            print('bottomer', bottomer)
+            if bottomer + " is clear" in new_state and 'holding ' + topper in new_state:
+                print('doorway goal++')
+                goal_alignment += 0.5
+                continue
+            print('topper obstacles', count_obstacles(topper, new_state))
+            print('bottomer obstacles', count_obstacles(bottomer, new_state))
+            goal_alignment -= count_obstacles(topper, new_state)
+            goal_alignment -= count_obstacles(bottomer, new_state)
+        print('vrand=', goal_alignment)
+        return new_prompt, goal_alignment
 
     '''-----------------------------------------------------'''
 
