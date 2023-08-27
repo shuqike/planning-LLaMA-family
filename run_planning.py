@@ -274,7 +274,6 @@ if __name__ == '__main__':
 
 
     args = parser.parse_args()
-    task = args.task
     model_name = args.model_name
     data_path = args.data_path
     alpha = args.alpha
