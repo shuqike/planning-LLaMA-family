@@ -40,7 +40,7 @@ class StateNode(AbsNode):
 
     @property
     def achieved_goal(self) -> bool:
-        return self._v_rand > 1e3
+        return self._v_rand >= 1e3
 
     @property
     def is_terminal(self) -> bool:
@@ -134,7 +134,7 @@ def forward_plan(initial_state: str,
         final_goals = re.findall("the [a-z]{0,10} block is on top of the [a-z]{0,10} block", goal_statement)
         meetings = [g in new_state for g in final_goals]
         if sum(meetings) == len(meetings):
-            return new_prompt, len(meetings) * 1e3
+            return new_prompt, 1e3
         goal_alignment = 0
         print('the new state is:', new_state)
         print('counting goals...')
