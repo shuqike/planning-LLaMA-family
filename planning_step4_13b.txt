@@ -1,0 +1,1513 @@
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+The model weights are not tied. Please use the `tie_weights` method before using the `infer_auto_device` function.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [07:42<15:24, 462.04s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [17:57<09:12, 552.35s/it]Loading checkpoint shards: 100%|██████████| 3/3 [23:28<00:00, 451.12s/it]Loading checkpoint shards: 100%|██████████| 3/3 [23:28<00:00, 469.42s/it]
+There are 57 files.
+We are dealing with 0-th file now.
+/home/zhihanliu/shuqi_code/planning-LLaMA-family/src/models.py:150: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  tokens[k, : len(t.input_ids[0])] = torch.tensor(t.input_ids)[:self.tokenizer.model_max_length].long()
+the new state is: I have that, the blue block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the blue block is on top of the orange block, the orange block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is in the hand, the orange block is clear, the red block is clear, the yellow block is clear, the hand is holding the blue block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the blue block is on top of the orange block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the red block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the orange block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is clear, the hand is empty, the blue block is on top of the yellow block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the blue block is on the table, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the red block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the orange block, the yellow block is on top of the blue block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 2
+bottomer obstacles 1
+vrand= -3
+the new state is: I have that, the blue block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the orange block, the yellow block is on top of the red block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the red block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the orange block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is in the hand, the orange block is clear, the red block is clear, the yellow block is clear, the hand is holding the blue block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is in the hand, the yellow block is clear, the hand is holding the orange block, the blue block is on top of the red block, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is in the hand, the hand is holding the yellow block, the blue block is on top of the red block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is in the hand, the orange block is clear, the red block is clear, the yellow block is clear, the hand is holding the blue block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is in the hand, the red block is clear, the hand is holding the orange block, the blue block is on top of the yellow block, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is in the hand, the hand is holding the red block, the blue block is on top of the yellow block, the orange block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is clear, the hand is empty, the blue block is on top of the red block, the orange block is on top of the yellow block, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the orange block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the yellow block is on top of the blue block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 1
+vrand= -1
+the new state is: I have that, the blue block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the yellow block is on top of the orange block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is in the hand, the yellow block is clear, the hand is holding the orange block, the blue block is on top of the red block, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the blue block is in the hand, the orange block is clear, the red block is clear, the yellow block is clear, the hand is holding the blue block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is in the hand, the yellow block is clear, the hand is holding the orange block, the blue block is on top of the red block, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is in the hand, the hand is holding the yellow block, the blue block is on top of the red block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+We are dealing with 1-th file now.
+the new state is: I have that, the blue block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 1
+vrand= -1
+the new state is: I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the red block is clear, the hand is empty, the red block is on top of the yellow block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 2
+bottomer obstacles 0
+vrand= -2
+the new state is: I have that, the blue block is clear, the red block is clear, the yellow block is clear, the hand is empty, the yellow block is on top of the orange block, the blue block is on the table, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the orange block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the orange block, the red block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the orange block is in the hand, the yellow block is clear, the hand is holding the orange block, the red block is on top of the blue block, the yellow block is on top of the red block, and the blue block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 1
+vrand= -1
+the new state is: I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the orange block is clear, the red block is clear, the hand is empty, the orange block is on top of the yellow block, the red block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 1
+vrand= -1
+the new state is: I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the orange block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the orange block, the red block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the orange block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the orange block, the red block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is in the hand, the hand is holding the red block, the orange block is on top of the yellow block, the blue block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+We are dealing with 2-th file now.
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is in the hand, the hand is holding the red block, the blue block is on top of the yellow block, the orange block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is in the hand, the orange block is clear, the red block is clear, the yellow block is clear, the hand is holding the blue block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+doorway goal++
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0.5
+the new state is: I have that, the blue block is clear, the orange block is in the hand, the red block is clear, the hand is holding the orange block, the blue block is on top of the yellow block, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the red block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the orange block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+final goal aligned++
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 1
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 1
+vrand= -1
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is clear, the hand is empty, the blue block is on top of the yellow block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the blue block is on the table, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the orange block is clear, the red block is clear, the hand is empty, the blue block is on top of the yellow block, the orange block is on top of the blue block, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+topper obstacles 1
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 2
+bottomer obstacles 0
+vrand= -3
+the new state is: I have that, the blue block is clear, the orange block is clear, the hand is empty, the blue block is on top of the yellow block, the orange block is on top of the red block, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 1
+bottomer obstacles 1
+vrand= -2
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is clear, the hand is empty, the blue block is on top of the yellow block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is in the hand, the orange block is clear, the red block is clear, the yellow block is clear, the hand is holding the blue block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+doorway goal++
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0.5
+the new state is: I have that, the blue block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the blue block is on top of the orange block, the orange block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+final goal aligned++
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 1
+the new state is: I have that, the blue block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the blue block is on top of the orange block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+final goal aligned++
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+doorway goal++
+vrand= 1.5
+the new state is: I have that, the blue block is in the hand, the orange block is clear, the red block is clear, the yellow block is clear, the hand is holding the blue block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+doorway goal++
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0.5
+the new state is: I have that, the blue block is clear, the orange block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the orange block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the blue block is on the table, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the red block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the orange block, the yellow block is on top of the blue block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+final goal aligned++
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 1
+the new state is: I have that, the red block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the orange block, the red block is on top of the blue block, the orange block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+final goal aligned++
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 1
+the new state is: I have that, the blue block is clear, the red block is clear, the hand is empty, the blue block is on top of the orange block, the red block is on top of the yellow block, the orange block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+final goal aligned++
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 1
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the red block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the orange block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+final goal aligned++
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 1
+We are dealing with 3-th file now.
+the new state is: I have that, the blue block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 1
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the blue block, the yellow block is on top of the orange block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 1
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the blue block is on the table, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the yellow block is on top of the blue block, the blue block is on the table, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 1
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the red block is clear, the yellow block is clear, the hand is empty, the yellow block is on top of the orange block, the blue block is on the table, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 1
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is clear, the hand is empty, the yellow block is on top of the red block, the blue block is on the table, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+final goal aligned++
+vrand= 1
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the blue block is on the table, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the yellow block is on top of the orange block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 1
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 1
+vrand= -2
+the new state is: I have that, the blue block is clear, the red block is clear, the hand is empty, the blue block is on top of the yellow block, the yellow block is on top of the orange block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 2
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -3
+the new state is: I have that, the blue block is clear, the red block is clear, the yellow block is clear, the hand is empty, the yellow block is on top of the orange block, the blue block is on the table, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 1
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is in the hand, the orange block is clear, the yellow block is clear, the hand is holding the blue block, the yellow block is on top of the red block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+final goal aligned++
+vrand= 1
+the new state is: I have that, the blue block is clear, the orange block is in the hand, the yellow block is clear, the hand is holding the orange block, the yellow block is on top of the red block, the blue block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+doorway goal++
+current fg= the yellow block is on top of the red block
+final goal aligned++
+vrand= 1.5
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the blue block is on the table, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the blue block is in the hand, the orange block is clear, the red block is clear, the yellow block is clear, the hand is holding the blue block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the orange block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+doorway goal++
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0.5
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the blue block is on the table, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+topper the yellow block
+bottomer the red block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the blue block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the orange block, the yellow block is on top of the red block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 1
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+final goal aligned++
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is clear, the hand is empty, the blue block is on top of the yellow block, the yellow block is on top of the red block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+final goal aligned++
+vrand= 1
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is clear, the hand is empty, the yellow block is on top of the red block, the blue block is on the table, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the blue block
+topper the orange block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the red block
+final goal aligned++
+vrand= 1
+We are dealing with 4-th file now.
+the new state is: I have that, the orange block is in the hand, the yellow block is clear, the hand is holding the orange block, the blue block is on top of the red block, the yellow block is on top of the blue block, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is in the hand, the hand is holding the yellow block, the blue block is on top of the red block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the orange block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the yellow block is on top of the blue block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the yellow block is on top of the orange block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the orange block is clear, the hand is empty, the blue block is on top of the red block, the orange block is on top of the yellow block, the yellow block is on top of the blue block, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 2
+bottomer obstacles 1
+vrand= -3
+the new state is: I have that, the orange block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the yellow block is on top of the blue block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the blue block, the yellow block is on top of the orange block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is in the hand, the hand is holding the yellow block, the blue block is on top of the red block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is in the hand, the orange block is clear, the red block is clear, the yellow block is clear, the hand is holding the blue block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the blue block is clear, the orange block is in the hand, the yellow block is clear, the hand is holding the orange block, the blue block is on top of the red block, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is in the hand, the hand is holding the yellow block, the blue block is on top of the red block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the yellow block is on top of the orange block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the red block is clear, the yellow block is clear, the hand is empty, the yellow block is on top of the orange block, the blue block is on the table, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the orange block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the yellow block is on top of the blue block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the yellow block is on top of the orange block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the blue block, the yellow block is on top of the orange block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the blue block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the blue block, the yellow block is on top of the orange block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the blue block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the blue block is on the table, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+We are dealing with 5-th file now.
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is in the hand, the hand is holding the red block, the orange block is on top of the yellow block, the blue block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+topper the red block
+bottomer the blue block
+doorway goal++
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0.5
+the new state is: I have that, the blue block is in the hand, the orange block is clear, the red block is clear, the hand is holding the blue block, the orange block is on top of the yellow block, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+topper the red block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the orange block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+topper the red block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the orange block is clear, the red block is clear, the hand is empty, the orange block is on top of the yellow block, the red block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+final goal aligned++
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 1
+the new state is: I have that, the blue block is clear, the red block is clear, the hand is empty, the orange block is on top of the yellow block, the red block is on top of the orange block, the blue block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+topper the red block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is clear, the hand is empty, the orange block is on top of the yellow block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+topper the red block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the orange block is on top of the blue block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+topper the red block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 1
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is clear, the hand is empty, the orange block is on top of the red block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+topper the red block
+bottomer the blue block
+topper obstacles 1
+bottomer obstacles 0
+current fg= the orange block is on top of the red block
+final goal aligned++
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is clear, the hand is empty, the orange block is on top of the yellow block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+topper the red block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the blue block is on the table, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+topper the red block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the orange block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the orange block, the red block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+final goal aligned++
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+doorway goal++
+vrand= 1.5
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is in the hand, the hand is holding the red block, the orange block is on top of the yellow block, the blue block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+topper the red block
+bottomer the blue block
+doorway goal++
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0.5
+the new state is: I have that, the blue block is in the hand, the orange block is clear, the red block is clear, the hand is holding the blue block, the orange block is on top of the yellow block, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+topper the red block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the orange block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+topper the red block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is in the hand, the hand is holding the red block, the orange block is on top of the yellow block, the blue block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+topper the red block
+bottomer the blue block
+doorway goal++
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0.5
+the new state is: I have that, the orange block is clear, the red block is clear, the hand is empty, the orange block is on top of the yellow block, the red block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+final goal aligned++
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 1
+the new state is: I have that, the blue block is clear, the red block is clear, the hand is empty, the orange block is on top of the yellow block, the red block is on top of the orange block, the blue block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+topper the red block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is clear, the hand is empty, the orange block is on top of the yellow block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the red block is on top of the blue block
+topper the red block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+We are dealing with 6-th file now.
+the new state is: I have that, the orange block is in the hand, the yellow block is clear, the hand is holding the orange block, the blue block is on top of the red block, the yellow block is on top of the blue block, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 1
+bottomer obstacles 0
+current fg= the yellow block is on top of the orange block
+topper the yellow block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is in the hand, the hand is holding the yellow block, the blue block is on top of the red block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the orange block
+topper the yellow block
+bottomer the orange block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the orange block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the yellow block is on top of the blue block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 1
+bottomer obstacles 0
+current fg= the yellow block is on top of the orange block
+topper the yellow block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the yellow block is on top of the orange block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the orange block
+final goal aligned++
+vrand= 1
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the orange block
+topper the yellow block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the orange block is clear, the hand is empty, the blue block is on top of the red block, the orange block is on top of the yellow block, the yellow block is on top of the blue block, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 2
+bottomer obstacles 1
+current fg= the yellow block is on top of the orange block
+topper the yellow block
+bottomer the orange block
+topper obstacles 1
+bottomer obstacles 0
+vrand= -4
+the new state is: I have that, the orange block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the yellow block is on top of the blue block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 1
+bottomer obstacles 0
+current fg= the yellow block is on top of the orange block
+topper the yellow block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the blue block, the yellow block is on top of the orange block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+doorway goal++
+current fg= the yellow block is on top of the orange block
+final goal aligned++
+vrand= 1.5
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is in the hand, the hand is holding the yellow block, the blue block is on top of the red block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the orange block
+topper the yellow block
+bottomer the orange block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the blue block is in the hand, the orange block is clear, the red block is clear, the yellow block is clear, the hand is holding the blue block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+doorway goal++
+current fg= the yellow block is on top of the orange block
+topper the yellow block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0.5
+the new state is: I have that, the blue block is clear, the orange block is in the hand, the yellow block is clear, the hand is holding the orange block, the blue block is on top of the red block, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the orange block
+topper the yellow block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is in the hand, the hand is holding the yellow block, the blue block is on top of the red block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the orange block
+topper the yellow block
+bottomer the orange block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the blue block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the yellow block is on top of the orange block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the orange block
+final goal aligned++
+vrand= 1
+the new state is: I have that, the orange block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the yellow block is on top of the blue block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 1
+bottomer obstacles 0
+current fg= the yellow block is on top of the orange block
+topper the yellow block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+vrand= -1
+the new state is: I have that, the blue block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the yellow block is on top of the orange block, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the orange block
+final goal aligned++
+vrand= 1
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the red block, the orange block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the yellow block
+topper the blue block
+bottomer the yellow block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the orange block
+topper the yellow block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+We are dealing with 7-th file now.
+the new state is: I have that, the blue block is in the hand, the orange block is clear, the yellow block is clear, the hand is holding the blue block, the orange block is on top of the red block, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+doorway goal++
+current fg= the yellow block is on top of the blue block
+topper the yellow block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0.5
+the new state is: I have that, the blue block is clear, the orange block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the orange block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the blue block
+topper the yellow block
+bottomer the blue block
+topper obstacles 0
+bottomer obstacles 0
+vrand= 0
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is in the hand, the hand is holding the yellow block, the orange block is on top of the red block, the blue block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+topper obstacles 0
+bottomer obstacles 0
+current fg= the yellow block is on top of the blue block
+topper the yellow block
+bottomer the blue block
+doorway goal++
+vrand= 0.5
+the new state is: I have that, the orange block is clear, the yellow block is clear, the hand is empty, the orange block is on top of the red block, the yellow block is on top of the blue block, the blue block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the orange block
+topper the blue block
+bottomer the orange block
+topper obstacles 1
+bottomer obstacles 0
+current fg= the yellow block is on top of the blue block
+final goal aligned++
+vrand= 0
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: -15) local_rank: 0 (pid: 2528142) of binary: /home/zhihanliu/anaconda3/envs/shuqi/bin/python
+Traceback (most recent call last):
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/run.py", line 798, in <module>
+    main()
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 346, in wrapper
+    return f(*args, **kwargs)
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/run.py", line 794, in main
+    run(args)
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/run.py", line 785, in run
+    elastic_launch(
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 250, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+=========================================================
+run_planning.py FAILED
+---------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+---------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2023-08-27_20:42:03
+  host      : nebula.osl.northwestern.edu
+  rank      : 0 (local_rank: 0)
+  exitcode  : -15 (pid: 2528142)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 2528142
+=========================================================
