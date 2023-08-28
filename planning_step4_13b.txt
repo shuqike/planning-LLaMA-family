@@ -2,7 +2,7 @@
 > initializing ddp with size 1
 > initializing pipeline with size 1
 The model weights are not tied. Please use the `tie_weights` method before using the `infer_auto_device` function.
-Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [07:53<15:46, 473.43s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [18:17<09:22, 562.33s/it]Loading checkpoint shards: 100%|██████████| 3/3 [23:52<00:00, 458.43s/it]Loading checkpoint shards: 100%|██████████| 3/3 [23:52<00:00, 477.59s/it]
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [07:56<15:53, 476.51s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [18:23<09:25, 565.19s/it]Loading checkpoint shards: 100%|██████████| 3/3 [23:59<00:00, 460.31s/it]Loading checkpoint shards: 100%|██████████| 3/3 [23:59<00:00, 479.76s/it]
 There are 57 files.
 We are dealing with 0-th file now.
 father state [GOAL] My goal is to have that the orange block is on top of the blue block.
