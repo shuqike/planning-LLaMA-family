@@ -118,8 +118,8 @@ def forward_plan(initial_state: str,
         elif "Stack" in last_action: 
             world_update_prompt = prompts["world_update_stack"].format(last_state, last_action)
         world_output = world_model.query_LM(world_update_prompt)
-        world_change = get_world_change(last_state, last_action)
-        # world_change = world_output.split("[CHANGE]")[-1]
+        # world_change = get_world_change(last_state, last_action)
+        world_change = world_output.split("[CHANGE]")[-1]
         last_state = inp.split(f"[STATE {depth-1}]")[-1].split(f"[ACTION {depth}]")[0]
         new_state = apply_change(world_change, last_state)
         new_prompt = inp + prompts["state_prefix"].format(depth) + " " + new_state + "\n"
