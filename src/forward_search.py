@@ -58,7 +58,6 @@ class ForwardSearch:
                 c_rwd = 0
                 for s in path:
                     c_rwd = c_rwd * self.discount + s._prob_r*s._alpha + s._v_rand
-                assert c_rwd > 0
                 returns.append(c_rwd)
             else:
                 children_sample = self.sampler(node)
