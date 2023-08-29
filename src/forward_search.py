@@ -58,8 +58,8 @@ class ForwardSearch:
                 # compute cumulative rewards
                 c_rwd = 0
                 for s in path:
-                    c_rwd = c_rwd * self.discount + s._prob_r*s._alpha + s._v_rand
-                returns.append(c_rwd)
+                    c_rwd = c_rwd * self.discount + s._prob_r*s._alpha
+                returns.append(c_rwd + node._v_rand)
             else:
                 print('father state', node.prompt)
                 children_sample = self.sampler(node)
