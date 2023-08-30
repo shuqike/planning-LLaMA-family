@@ -1,1 +1,1 @@
-[+]: The number of correct plans is 1/1=100.0%
+[+]: The number of correct plans is 110/114=96.49122807017544%
