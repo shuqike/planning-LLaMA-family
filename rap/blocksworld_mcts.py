@@ -229,8 +229,11 @@ def reasoning_mcts_search(initial_state: str,
         elif "Stack" in last_action: 
             world_update_prompt = prompts["world_update_stack"].format(last_state, last_action)
 
-        world_output = world_model.query_LM(world_update_prompt, do_sample=False, num_return_sequences=1,
-                                    eos_token_id=eos_token_id)[0]
+        if world_model.__class__.__name__ == "QueryVicuna":
+            world_output = world_model.query_LM(world_update_prompt)
+        else:
+            world_output = world_model.query_LM(world_update_prompt, do_sample=False, num_return_sequences=1,
+                                        eos_token_id=eos_token_id)[0]
         world_change = world_output.split("[CHANGE]")[-1]
         last_state = inp.split(f"[STATE {depth-1}]")[-1].split(f"[ACTION {depth}]")[0]
         new_state = apply_change(world_change, last_state)
