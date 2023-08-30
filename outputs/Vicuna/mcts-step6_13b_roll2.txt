@@ -558,3 +558,356 @@ Plan invalid
 
 Failed plans:
  gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+=================================== MCTS FAILURE ===================================Checking plan: gpt_sas_plan
+Plan executed successfully - checking goal
+Goal not satisfied
+Plan invalid
+
+
+Failed plans:
+ gpt_sas_plan 
+[+]: The number of correct plans is 0/114=0.0%

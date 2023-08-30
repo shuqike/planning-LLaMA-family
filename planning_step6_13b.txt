@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "/home/zhihanliu/shuqi_code/planning-LLaMA-family/run_planning.py", line 6, in <module>
+    from Executor import Executor
+  File "/home/zhihanliu/shuqi_code/planning-LLaMA-family/gpt-plan-benchmark/gpt_plan_test/Executor/__init__.py", line 7, in <module>
+    from model_parser.parser_new import parse_model
+  File "/home/zhihanliu/shuqi_code/planning-LLaMA-family/gpt-plan-benchmark/gpt_plan_test/model_parser/__init__.py", line 1, in <module>
+    from .parser_new import parse_model
+  File "/home/zhihanliu/shuqi_code/planning-LLaMA-family/gpt-plan-benchmark/gpt_plan_test/model_parser/parser_new.py", line 2, in <module>
+    import tarski
+ModuleNotFoundError: No module named 'tarski'
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 1) local_rank: 0 (pid: 2924701) of binary: /home/zhihanliu/anaconda3/bin/python
+Traceback (most recent call last):
+  File "/home/zhihanliu/anaconda3/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/zhihanliu/anaconda3/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhihanliu/anaconda3/lib/python3.10/site-packages/torch/distributed/run.py", line 765, in <module>
+    main()
+  File "/home/zhihanliu/anaconda3/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 345, in wrapper
+    return f(*args, **kwargs)
+  File "/home/zhihanliu/anaconda3/lib/python3.10/site-packages/torch/distributed/run.py", line 761, in main
+    run(args)
+  File "/home/zhihanliu/anaconda3/lib/python3.10/site-packages/torch/distributed/run.py", line 752, in run
+    elastic_launch(
+  File "/home/zhihanliu/anaconda3/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 131, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/zhihanliu/anaconda3/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 245, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+run_planning.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2023-08-30_18:45:06
+  host      : nebula.osl.northwestern.edu
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2924701)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
