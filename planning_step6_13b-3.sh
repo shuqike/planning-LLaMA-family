@@ -1,4 +1,4 @@
-# id: 
+# id: 2914988
 CUDA_VISIBLE_DEVICES=7,8,9 nohup python -m torch.distributed.run --master_port 29400 --nproc_per_node 1 run_planning.py \
 --model_name Vicuna \
 --name planning_step6_13b \
