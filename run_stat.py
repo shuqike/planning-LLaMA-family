@@ -3,6 +3,10 @@ import json
 import argparse
 
 
+def true_clip(x):
+    return 1 if x else 0
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--run_name', type=str, default='mcts-run_1_Aug2_search_depth_3_alpha_01_rollouts_10')
@@ -16,7 +20,7 @@ if __name__ == '__main__':
         with open(os.path.join(data_path, file_name), 'r') as f:
             line = f.readline()
             num_success, num_sample = line.split(',')
-            total_success += eval(num_success)
+            total_success += true_clip(eval(num_success))
     # else:
     #     data_path = os.path.join('logs', args.run_name, 'json')
     #     sample_files = os.listdir(data_path)
