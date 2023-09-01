@@ -9,4 +9,4 @@ CUDA_VISIBLE_DEVICES=7,8,9 nohup python -m torch.distributed.run --master_port 2
 --sample_per_node 2 \
 --model_path lmsys/vicuna-13b-v1.3 \
 --num_gpus 3 \
---resume_file_idx 18
+--resume_file_idx 73
