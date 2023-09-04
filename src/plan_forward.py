@@ -157,7 +157,7 @@ def forward_plan(initial_state: str,
                 print('doorway goal++')
                 goal_alignment += 0.5
                 continue
-            if use_lang_goal:
+            if use_lang_goal != True:
                 tmp = count_obstacles(topper, new_state)
                 print('true topper obstacles', tmp)
                 goal_alignment -= tmp
