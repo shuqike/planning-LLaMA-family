@@ -1,1 +1,1 @@
-[+]: The number of correct plans is 113/114=99.12280701754386%
+[+]: The number of correct plans is 94/114=82.45614035087719%
