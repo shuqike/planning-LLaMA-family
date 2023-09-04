@@ -33,11 +33,11 @@ my_cmap = mpl.colormaps['tab20']
 
 # for blocksworld step6 vicuna13B
 plt.title('Blocksworld Step6 Vicuna-13B')
-sample_x = [4621, 10591]
-success_rate_y = [79.8, 99.1]
+sample_x = [728, 4621, 10591]
+success_rate_y = [61.4, 79.8, 99.1]
 plt.plot(sample_x, success_rate_y, color=my_cmap(8), marker='o', markersize=9, linestyle='dashed', label='Our method')
-sample_x = [1596, 2394, 3990, 4788, 5586, 6384, 7182, 7980, ]
-success_rate_y = [0, 0, 10.5, 18.4, 28.9, 44.7, 61.4, 80.7, ]
+sample_x = [1596, 2394, 3990, 4788, 5586, 6384, 7182, 7980, 8778, 9576, 15960, 28728, 39900, 47880]
+success_rate_y = [0, 0, 6.1, 7.9, 10.5, 15.7, 16.6, 19.3, 22.8, 26.3, 37.7, 53.5, 61.4, 71.9]
 plt.plot(sample_x, success_rate_y, color=my_cmap(4), marker='o', markersize=9, linestyle='dashed', label='MCTS')
 plt.ylabel('Success rate (%)')
 plt.xlabel('Sample')

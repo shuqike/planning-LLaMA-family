@@ -170,7 +170,8 @@ class ReasoningTasks():
                  search_depth=6,
                  sample_per_node=2,
                  sampler='heuristic',
-                 discount=1,):
+                 discount=1,
+                 use_lang_goal=False):
         self.read_config(config_file)
 
         # make directory for logs
@@ -222,6 +223,7 @@ class ReasoningTasks():
                 sample_per_node=sample_per_node,
                 sampler=sampler,
                 discount=discount,
+                use_lang_goal=use_lang_goal,
             )
 
             torch.distributed.barrier()
@@ -271,6 +273,7 @@ if __name__ == '__main__':
     parser.add_argument('--discount', type=float, default=1)
     parser.add_argument('--model_path', type=str, required=True, choices=['lmsys/vicuna-7b-v1.3', 'lmsys/vicuna-13b-v1.3', 'lmsys/vicuna-33b-v1.3'])
     parser.add_argument('--num_gpus', type=int, default=1)
+    parser.add_argument('--use_lang_goal', action='store_true')
 
 
     args = parser.parse_args()
@@ -300,4 +303,5 @@ if __name__ == '__main__':
         sample_per_node=args.sample_per_node,
         sampler=args.sampler,
         discount=args.discount,
+        use_lang_goal=args.use_lang_goal
     )

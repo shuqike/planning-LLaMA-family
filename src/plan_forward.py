@@ -5,7 +5,7 @@ from copy import deepcopy
 from typing import List, Tuple
 from src.models import QueryLM
 from src.forward_search import ForwardSearch, AbsNode
-from src.utils.blocksworld import apply_change, generate_all_actions, get_world_change, extract_block, count_obstacles
+from src.utils.blocksworld import apply_change, generate_all_actions, get_world_change, extract_block, count_obstacles, llm_count_obstacles
 
 
 class StateNode(AbsNode):
@@ -57,7 +57,8 @@ def forward_plan(initial_state: str,
                  sample_per_node: int,
                  sampler: str='heuristic',
                  discount: float=1,
-                 speedup_action_batch_size=2,) -> bool:
+                 speedup_action_batch_size=2,
+                 use_lang_goal=False) -> bool:
 
     '''-----------------------------------------------------'''
 
@@ -156,10 +157,20 @@ def forward_plan(initial_state: str,
                 print('doorway goal++')
                 goal_alignment += 0.5
                 continue
-            print('topper obstacles', count_obstacles(topper, new_state))
-            print('bottomer obstacles', count_obstacles(bottomer, new_state))
-            goal_alignment -= count_obstacles(topper, new_state)
-            goal_alignment -= count_obstacles(bottomer, new_state)
+            if use_lang_goal:
+                tmp = count_obstacles(topper, new_state)
+                print('true topper obstacles', tmp)
+                goal_alignment -= tmp
+                tmp = count_obstacles(bottomer, new_state)
+                print('true bottomer obstacles', tmp)
+                goal_alignment -= tmp
+            else:
+                tmp = llm_count_obstacles(topper, new_state, world_model)
+                print('lang topper obstacles', tmp)
+                goal_alignment -= tmp
+                tmp = llm_count_obstacles(bottomer, new_state, world_model)
+                print('lang bottomer obstacles', tmp)
+                goal_alignment -= tmp
         print('vrand=', goal_alignment)
         return new_prompt, goal_alignment
 
