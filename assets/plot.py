@@ -19,8 +19,8 @@ my_cmap = mpl.colormaps['tab20']
 sample_x = [232, 856,1446,3288,11444,14250,17100]
 success_rate_y = [93,100,100,100,100,100,100]
 plt.plot(sample_x, success_rate_y, color='y', marker='o', markersize=9, linestyle='dashed', label='Rule-based subgoal setting')
-sample_x = [232]
-success_rate_y = [43.86]
+sample_x = [232, 1434]
+success_rate_y = [43.86, 73.68]
 plt.plot(sample_x, success_rate_y, color='b', marker='o', markersize=9, linestyle='dashed', label='LLM-based subgoal setting')
 sample_x = [228,439,856,1446,3288,11444,14250,17100]
 # success_rate_y = [12.28,15.79,36.84,47.37,64.91,100,100,100]
