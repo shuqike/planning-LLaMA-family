@@ -1,1 +1,1 @@
-[+]: The number of correct plans is 52/57=91.22807017543859%
+[+]: The number of correct plans is 48/57=84.21052631578947%
