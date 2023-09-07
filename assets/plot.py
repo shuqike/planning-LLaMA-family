@@ -20,8 +20,8 @@ sample_x = [232, 856,1446,3288,11444,14250,17100]
 success_rate_y = [93,100,100,100,100,100,100]
 plt.plot(sample_x, success_rate_y, color='y', marker='o', markersize=9, linestyle='dashed', label='[Domain]Rule-based subgoal')
 '''---------'''
-sample_x = [232, 1434, 3402]
-success_rate_y = [43.86, 73.68, 84.21]
+sample_x = [232, 1434, 3187, 3402]
+success_rate_y = [43.86, 73.68, 80.7, 84.21]
 plt.plot(sample_x, success_rate_y, color='b', marker='o', markersize=9, linestyle='dashed', label='[Domain]LLM-based subgoal')
 '''---------'''
 sample_x = [228,439,856,1446,3288,11444,14250,17100]
