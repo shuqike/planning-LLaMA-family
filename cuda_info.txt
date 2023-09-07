@@ -1,0 +1,140 @@
+Please ask your administrator.
+Wed Sep  6 21:34:40 2023       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.86.10              Driver Version: 535.86.10    CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA RTX A6000               On  | 00000000:1A:00.0 Off |                  Off |
+| 30%   45C    P2             128W / 300W |  10464MiB / 49140MiB |     46%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   1  NVIDIA RTX A6000               On  | 00000000:1B:00.0 Off |                  Off |
+| 30%   42C    P2             103W / 300W |   9788MiB / 49140MiB |     33%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   2  NVIDIA RTX A6000               On  | 00000000:1C:00.0 Off |                  Off |
+| 30%   44C    P2             103W / 300W |   9492MiB / 49140MiB |     31%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   3  NVIDIA RTX A6000               On  | 00000000:1D:00.0 Off |                  Off |
+| 30%   44C    P2             126W / 300W |  11018MiB / 49140MiB |     28%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   4  NVIDIA RTX A6000               On  | 00000000:1E:00.0 Off |                  Off |
+| 30%   48C    P2             118W / 300W |  15629MiB / 49140MiB |     28%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   5  NVIDIA RTX A6000               On  | 00000000:3D:00.0 Off |                  Off |
+| 30%   46C    P2             131W / 300W |  15333MiB / 49140MiB |     66%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   6  NVIDIA RTX A6000               On  | 00000000:3E:00.0 Off |                  Off |
+| 30%   36C    P2             105W / 300W |   5202MiB / 49140MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   7  NVIDIA RTX A6000               On  | 00000000:3F:00.0 Off |                  Off |
+| 30%   39C    P2              68W / 300W |   5202MiB / 49140MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   8  NVIDIA RTX A6000               On  | 00000000:40:00.0 Off |                  Off |
+| 30%   39C    P2             101W / 300W |   4812MiB / 49140MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   9  NVIDIA RTX A6000               On  | 00000000:41:00.0 Off |                  Off |
+| 30%   38C    P2              75W / 300W |   4812MiB / 49140MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
+Results from nvidia-smi --query-gpu=driver_version --format=csv,noheader,nounits >> cuda_info.txt
+535.86.10
+535.86.10
+535.86.10
+535.86.10
+535.86.10
+535.86.10
+535.86.10
+535.86.10
+535.86.10
+535.86.10
+
+Results from ldconfig -p | grep cuda >> cuda_info.txt
+	libpcsamplingutil.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libpcsamplingutil.so
+	libnvrtc.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnvrtc.so.12
+	libnvrtc.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnvrtc.so
+	libnvrtc-builtins.so.12.2 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnvrtc-builtins.so.12.2
+	libnvrtc-builtins.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnvrtc-builtins.so
+	libnvperf_target.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnvperf_target.so
+	libnvperf_host.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnvperf_host.so
+	libnvjpeg.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnvjpeg.so.12
+	libnvjpeg.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnvjpeg.so
+	libnvblas.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnvblas.so.12
+	libnvblas.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnvblas.so
+	libnvToolsExt.so.1 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnvToolsExt.so.1
+	libnvToolsExt.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnvToolsExt.so
+	libnvJitLink.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnvJitLink.so.12
+	libnvJitLink.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnvJitLink.so
+	libnpps.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnpps.so.12
+	libnpps.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnpps.so
+	libnppitc.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppitc.so.12
+	libnppitc.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppitc.so
+	libnppisu.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppisu.so.12
+	libnppisu.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppisu.so
+	libnppist.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppist.so.12
+	libnppist.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppist.so
+	libnppim.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppim.so.12
+	libnppim.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppim.so
+	libnppig.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppig.so.12
+	libnppig.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppig.so
+	libnppif.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppif.so.12
+	libnppif.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppif.so
+	libnppidei.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppidei.so.12
+	libnppidei.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppidei.so
+	libnppicc.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppicc.so.12
+	libnppicc.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppicc.so
+	libnppial.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppial.so.12
+	libnppial.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppial.so
+	libnppc.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppc.so.12
+	libnppc.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libnppc.so
+	libicudata.so.70 (libc6,x86-64) => /lib/x86_64-linux-gnu/libicudata.so.70
+	libcusparse.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcusparse.so.12
+	libcusparse.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcusparse.so
+	libcusolverMg.so.11 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcusolverMg.so.11
+	libcusolverMg.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcusolverMg.so
+	libcusolver.so.11 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcusolver.so.11
+	libcusolver.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcusolver.so
+	libcurand.so.10 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcurand.so.10
+	libcurand.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcurand.so
+	libcupti.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcupti.so.12
+	libcupti.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcupti.so
+	libcuinj64.so.12.2 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcuinj64.so.12.2
+	libcuinj64.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcuinj64.so
+	libcufile_rdma.so.1 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcufile_rdma.so.1
+	libcufile_rdma.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcufile_rdma.so
+	libcufile.so.0 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcufile.so.0
+	libcufile.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcufile.so
+	libcufftw.so.11 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcufftw.so.11
+	libcufftw.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcufftw.so
+	libcufft.so.11 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcufft.so.11
+	libcufft.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcufft.so
+	libcudart.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcudart.so.12
+	libcudart.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcudart.so
+	libcudadebugger.so.1 (libc6,x86-64) => /lib/x86_64-linux-gnu/libcudadebugger.so.1
+	libcuda.so.1 (libc6,x86-64) => /lib/x86_64-linux-gnu/libcuda.so.1
+	libcuda.so (libc6,x86-64) => /lib/x86_64-linux-gnu/libcuda.so
+	libcublasLt.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcublasLt.so.12
+	libcublasLt.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcublasLt.so
+	libcublas.so.12 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcublas.so.12
+	libcublas.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcublas.so
+	libcheckpoint.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libcheckpoint.so
+	libaccinj64.so.12.2 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libaccinj64.so.12.2
+	libaccinj64.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libaccinj64.so
+	libOpenCL.so.1 (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libOpenCL.so.1
+	libOpenCL.so (libc6,x86-64) => /usr/local/cuda/targets/x86_64-linux/lib/libOpenCL.so
+
+Results from cat /usr/local/cuda/include/cublas.h | grep CUBLAS_VERSION >> cuda_info.txt
+         and cat /usr/local/cuda/include/cusparse.h | grep CUSPARSE_VER_MAJOR >> cuda_info.txt
+#define CUSPARSE_VER_MAJOR 12
+#define CUSPARSE_VERSION (CUSPARSE_VER_MAJOR * 1000 + \
