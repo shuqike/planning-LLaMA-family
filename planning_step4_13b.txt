@@ -4123,3 +4123,395 @@ current fg= the orange block is on top of the red block
 topper the orange block
 bottomer the red block
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 2
+vrand= -2
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the blue block is clear, the red block is clear, the yellow block is clear, the hand is empty, the yellow block is on top of the orange block, the blue block is on the table, the orange block is on the table, and the red block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 2
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 0
+vrand= -2
+sorted [(0.016317535, 0.0, -2), (0.77708685, 0.0, -2), (0.20659557, 0.0, -2)]
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the orange block.
+[STATE 2] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+[ACTION 3] Unstack the red block from on top of the blue block.
+[STATE 3] I have that, the blue block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+[ACTION 4] Stack the red block on top of the blue block.
+[STATE 4] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the orange block.
+[STATE 2] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+[ACTION 3] Unstack the red block from on top of the blue block.
+[STATE 3] I have that, the blue block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+[ACTION 4] Stack the red block on top of the yellow block.
+[STATE 4] I have that, the blue block is clear, the red block is clear, the hand is empty, the red block is on top of the yellow block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the orange block.
+[STATE 2] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+[ACTION 3] Unstack the red block from on top of the blue block.
+[STATE 3] I have that, the blue block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+[ACTION 4] Put down the red block.
+[STATE 4] I have that, the blue block is clear, the red block is clear, the yellow block is clear, the hand is empty, the yellow block is on top of the orange block, the blue block is on the table, the orange block is on the table, and the red block is on the table.
+
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the orange block.
+[STATE 2] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+[ACTION 3] Unstack the yellow block from on top of the orange block.
+[STATE 3] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+
+father state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the orange block.
+[STATE 2] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+[ACTION 3] Unstack the yellow block from on top of the orange block.
+[STATE 3] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 1
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 1
+vrand= -2
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 1
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 1
+vrand= -2
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 2
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 1
+vrand= -3
+sorted [(0.010158252, 0.0, -2), (0.92054856, 0.0, -2), (0.06929312, 0.0, -3)]
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the orange block.
+[STATE 2] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+[ACTION 3] Unstack the yellow block from on top of the orange block.
+[STATE 3] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 4] Stack the yellow block on top of the orange block.
+[STATE 4] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the orange block.
+[STATE 2] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+[ACTION 3] Unstack the yellow block from on top of the orange block.
+[STATE 3] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 4] Stack the yellow block on top of the red block.
+[STATE 4] I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the orange block.
+[STATE 2] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+[ACTION 3] Unstack the yellow block from on top of the orange block.
+[STATE 3] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 4] Put down the yellow block.
+[STATE 4] I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the red block.
+[STATE 2] I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+
+father state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the red block.
+[STATE 2] I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+
+sorted [(0.0068798373, 0.0, -2), (0.9931202, 0.0, -3)]
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the red block.
+[STATE 2] I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+[ACTION 3] Unstack the yellow block from on top of the red block.
+[STATE 3] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+
+father state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the red block.
+[STATE 2] I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+[ACTION 3] Unstack the yellow block from on top of the red block.
+[STATE 3] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 1
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 1
+vrand= -2
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 1
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 1
+vrand= -2
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 2
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 1
+vrand= -3
+sorted [(0.761886, 0.0, -2), (0.019373655, 0.0, -2), (0.21874034, 0.0, -3)]
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the red block.
+[STATE 2] I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+[ACTION 3] Unstack the yellow block from on top of the red block.
+[STATE 3] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 4] Stack the yellow block on top of the orange block.
+[STATE 4] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table, and the orange block is on the table.
+
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the red block.
+[STATE 2] I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+[ACTION 3] Unstack the yellow block from on top of the red block.
+[STATE 3] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 4] Stack the yellow block on top of the red block.
+[STATE 4] I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the red block.
+[STATE 2] I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+[ACTION 3] Unstack the yellow block from on top of the red block.
+[STATE 3] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 4] Put down the yellow block.
+[STATE 4] I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the red block.
+[STATE 2] I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+[ACTION 3] Pick up the orange block.
+[STATE 3] I have that, the orange block is in the hand, the yellow block is clear, the hand is holding the orange block, the red block is on top of the blue block, the yellow block is on top of the red block, and the blue block is on the table.
+
+father state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the red block.
+[STATE 2] I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+[ACTION 3] Pick up the orange block.
+[STATE 3] I have that, the orange block is in the hand, the yellow block is clear, the hand is holding the orange block, the red block is on top of the blue block, the yellow block is on top of the red block, and the blue block is on the table.
+
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the orange block is clear, the hand is empty, the orange block is on top of the yellow block, the red block is on top of the blue block, the yellow block is on top of the red block, and the blue block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 1
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 2
+vrand= -3
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 1
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 1
+vrand= -2
+sorted [(0.1693329, 0.0, -2), (0.8306671, 0.0, -3)]
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the red block.
+[STATE 2] I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+[ACTION 3] Pick up the orange block.
+[STATE 3] I have that, the orange block is in the hand, the yellow block is clear, the hand is holding the orange block, the red block is on top of the blue block, the yellow block is on top of the red block, and the blue block is on the table.
+[ACTION 4] Put down the orange block.
+[STATE 4] I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Stack the yellow block on top of the red block.
+[STATE 2] I have that, the orange block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the red block, the blue block is on the table, and the orange block is on the table.
+[ACTION 3] Pick up the orange block.
+[STATE 3] I have that, the orange block is in the hand, the yellow block is clear, the hand is holding the orange block, the red block is on top of the blue block, the yellow block is on top of the red block, and the blue block is on the table.
+[ACTION 4] Stack the orange block on top of the yellow block.
+[STATE 4] I have that, the orange block is clear, the hand is empty, the orange block is on top of the yellow block, the red block is on top of the blue block, the yellow block is on top of the red block, and the blue block is on the table.
+
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Put down the yellow block.
+[STATE 2] I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+
+father state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Put down the yellow block.
+[STATE 2] I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the orange block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the orange block, the red block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+doorway goal++
+vrand= 0.5
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the blue block is clear, the orange block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 0
+vrand= 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+counting goals...
+current fg= the orange block is on top of the red block
+topper the orange block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 1
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 1
+vrand= -2
+sorted [(0.7470124, 0.0, 0.5), (0.0041120197, 0.0, 0), (0.24887557, 0.0, -2)]
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Put down the yellow block.
+[STATE 2] I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+[ACTION 3] Pick up the orange block.
+[STATE 3] I have that, the orange block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the orange block, the red block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
+
+father state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Put down the yellow block.
+[STATE 2] I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+[ACTION 3] Pick up the orange block.
+[STATE 3] I have that, the orange block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the orange block, the red block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
+
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+sorted [(0.91188264, 0.0, 1000.0)]
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Put down the yellow block.
+[STATE 2] I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+[ACTION 3] Pick up the orange block.
+[STATE 3] I have that, the orange block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the orange block, the red block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
+[ACTION 4] Stack the orange block on top of the red block.
+[STATE 4] I have that, the orange block is clear, the yellow block is clear, the hand is empty, the orange block is on top of the red block, the red block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
+
+children state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Put down the yellow block.
+[STATE 2] I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+[ACTION 3] Unstack the red block from on top of the blue block.
+[STATE 3] I have that, the blue block is clear, the orange block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+
+father state [GOAL] My goal is to have that the orange block is on top of the red block.
+[STATE 0] I have that, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the yellow block is on top of the orange block, the blue block is on the table and the orange block is on the table.
+[ACTION 1] Unstack the yellow block from on top of the orange block.
+[STATE 1] I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the red block is on top of the blue block, the blue block is on the table, and the orange block is on the table.
+[ACTION 2] Put down the yellow block.
+[STATE 2] I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the red block is on top of the blue block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+[ACTION 3] Unstack the red block from on top of the blue block.
+[STATE 3] I have that, the blue block is clear, the orange block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the blue block is on the table, the orange block is on the table, and the yellow block is on the table.
+
+Keyword arguments {'bos': False, 'eos': False} not recognized.

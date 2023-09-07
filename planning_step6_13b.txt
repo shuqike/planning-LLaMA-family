@@ -38890,3 +38890,171 @@ father state [GOAL] My goal is to have that the blue block is on top of the red 
 [STATE 1] I have that, the orange block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the orange block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
 
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the red block is clear, the yellow block is clear, the hand is empty, the orange block is on top of the blue block, the red block is on top of the orange block, the blue block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the red block
+topper the blue block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 2
+current fg= the yellow block is on top of the blue block
+topper the yellow block
+bottomer the blue block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 1
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 0
+vrand= -3
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the orange block is clear, the red block is clear, the hand is empty, the orange block is on top of the blue block, the red block is on top of the yellow block, the blue block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the red block
+topper the blue block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 2
+current fg= the yellow block is on top of the blue block
+topper the yellow block
+bottomer the blue block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 1
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 0
+vrand= -3
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the orange block is on top of the blue block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the red block
+topper the blue block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 1
+current fg= the yellow block is on top of the blue block
+topper the yellow block
+bottomer the blue block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 0
+vrand= -1
+sorted [(0.07956659, 0.0, -1), (0.55652726, 0.0, -3), (0.36390623, 0.0, -3)]
+children state [GOAL] My goal is to have that the blue block is on top of the red block and the yellow block is on top of the blue block.
+[STATE 0] I have that, the red block is clear, the orange block is clear, the yellow block is clear, the hand is empty, the orange block is on top of the blue block, the red block is on the table, the blue block is on the table and the yellow block is on the table.
+[ACTION 1] Pick up the red block.
+[STATE 1] I have that, the orange block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the orange block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
+[ACTION 2] Put down the red block.
+[STATE 2] I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the orange block is on top of the blue block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+
+father state [GOAL] My goal is to have that the blue block is on top of the red block and the yellow block is on top of the blue block.
+[STATE 0] I have that, the red block is clear, the orange block is clear, the yellow block is clear, the hand is empty, the orange block is on top of the blue block, the red block is on the table, the blue block is on the table and the yellow block is on the table.
+[ACTION 1] Pick up the red block.
+[STATE 1] I have that, the orange block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the orange block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
+[ACTION 2] Put down the red block.
+[STATE 2] I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the orange block is on top of the blue block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the blue block is clear, the orange block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the orange block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the red block
+topper the blue block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 0
+current fg= the yellow block is on top of the blue block
+topper the yellow block
+bottomer the blue block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 0
+vrand= 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the orange block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the orange block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the red block
+topper the blue block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 0
+current fg= the yellow block is on top of the blue block
+topper the yellow block
+bottomer the blue block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 0
+vrand= 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the orange block is clear, the red block is clear, the yellow block is in the hand, the hand is holding the yellow block, the orange block is on top of the blue block, the blue block is on the table, and the red block is on the table.
+counting goals...
+current fg= the blue block is on top of the red block
+topper the blue block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 0
+current fg= the yellow block is on top of the blue block
+topper the yellow block
+bottomer the blue block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 0
+vrand= 0
+sorted [(0.0016068511, 0.0, 0), (0.14401591, 0.0, 0), (0.8543772, 0.0, 0)]
+children state [GOAL] My goal is to have that the blue block is on top of the red block and the yellow block is on top of the blue block.
+[STATE 0] I have that, the red block is clear, the orange block is clear, the yellow block is clear, the hand is empty, the orange block is on top of the blue block, the red block is on the table, the blue block is on the table and the yellow block is on the table.
+[ACTION 1] Pick up the red block.
+[STATE 1] I have that, the orange block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the orange block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
+[ACTION 2] Put down the red block.
+[STATE 2] I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the orange block is on top of the blue block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+[ACTION 3] Unstack the orange block from on top of the blue block.
+[STATE 3] I have that, the blue block is clear, the orange block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the orange block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+
+father state [GOAL] My goal is to have that the blue block is on top of the red block and the yellow block is on top of the blue block.
+[STATE 0] I have that, the red block is clear, the orange block is clear, the yellow block is clear, the hand is empty, the orange block is on top of the blue block, the red block is on the table, the blue block is on the table and the yellow block is on the table.
+[ACTION 1] Pick up the red block.
+[STATE 1] I have that, the orange block is clear, the red block is in the hand, the yellow block is clear, the hand is holding the red block, the orange block is on top of the blue block, the blue block is on the table, and the yellow block is on the table.
+[ACTION 2] Put down the red block.
+[STATE 2] I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the orange block is on top of the blue block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+[ACTION 3] Unstack the orange block from on top of the blue block.
+[STATE 3] I have that, the blue block is clear, the orange block is in the hand, the red block is clear, the yellow block is clear, the hand is holding the orange block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the orange block is clear, the red block is clear, the yellow block is clear, the hand is empty, the orange block is on top of the blue block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the red block
+topper the blue block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 1
+current fg= the yellow block is on top of the blue block
+topper the yellow block
+bottomer the blue block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang bottomer obstacles 0
+vrand= -1
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+the new state is: I have that, the blue block is clear, the orange block is clear, the yellow block is clear, the hand is empty, the orange block is on top of the red block, the blue block is on the table, the red block is on the table, and the yellow block is on the table.
+counting goals...
+current fg= the blue block is on top of the red block
+topper the blue block
+bottomer the red block
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+lang topper obstacles 0
+Keyword arguments {'bos': False, 'eos': False} not recognized.
