@@ -1,3 +1,5 @@
 gpt_sas_plan
 ./gpt_sas_plan
 outputs/*
+logs/.DS_Store
+logs/mcts6/.DS_Store
