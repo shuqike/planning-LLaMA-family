@@ -6,7 +6,7 @@ import openai
 import argparse
 import traceback
 from functools import partial
-from src.mpc.llm import chat_with_vicuna
+from src.mpc.llm import chat_with_vicuna, chat_with_gpt
 from src.mpc.env.blocksworld import Blocksworld, get_problem
 from src.mpc.tot_agent import TotAgent
 from src.mpc.mpc_agent import ModelPredictiveControlAgent
@@ -39,7 +39,7 @@ def run(args):
     if args.algorithm == 'mpc':
         agent = ModelPredictiveControlAgent(
             args=args,
-            specialist=partial(chat_with_vicuna,
+            specialist=partial(chat_with_gpt,
                                engine=args.backend,
                                temperature=args.temperature,
                                top_p=args.top_p
@@ -49,7 +49,7 @@ def run(args):
         os.environ["OPENAI_API_KEY"] = openai.api_key
         agent = TotAgent(
             args=args,
-            specialist=partial(chat_with_vicuna,
+            specialist=partial(chat_with_gpt,
                                engine=args.backend,
                                temperature=args.temperature,
                                top_p=args.top_p
