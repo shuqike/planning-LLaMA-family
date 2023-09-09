@@ -20,8 +20,8 @@ sample_x = [232, 856,1446,3288,11444,14250,17100]
 success_rate_y = [93,100,100,100,100,100,100]
 plt.plot(sample_x, success_rate_y, color='y', marker='o', markersize=9, linestyle='dashed', label='[Domain]Rule-based subgoal')
 '''---------'''
-sample_x = [232, 1434, 3187, 3402]
-success_rate_y = [43.86, 73.68, 80.7, 84.21]
+sample_x = [232, 1434, 3187, 3402, 11832]
+success_rate_y = [43.86, 73.68, 80.7, 84.21, 100]
 plt.plot(sample_x, success_rate_y, color='b', marker='o', markersize=9, linestyle='dashed', label='[Domain]LLM-based subgoal')
 '''---------'''
 sample_x = [228,439,856,1446,3288,11444,14250,17100]
@@ -45,8 +45,8 @@ plt.title('Blocksworld Step6 Vicuna-13B')
 sample_x = [728, 4621, 10591]
 success_rate_y = [61.4, 79.8, 99.1]
 plt.plot(sample_x, success_rate_y, color=my_cmap(8), marker='o', markersize=9, linestyle='dashed', label='[Domain]Rule-based subgoal')
-sample_x = [784]
-success_rate_y = [12.28]
+sample_x = [784, 5167]
+success_rate_y = [12.28, 26.3]
 plt.plot(sample_x, success_rate_y, color=my_cmap(12), marker='o', markersize=9, linestyle='dashed', label='[Domain]LLM-based subgoal')
 sample_x = [1596, 2394, 3990, 4788, 5586, 6384, 7182, 7980, 8778, 9576, 15960, 28728, 39900, 47880] # treat multiple trials like one-shot
 success_rate_y = [0,  0, 6.1, 7.9, 10.5, 15.7, 16.6, 19.3, 22.8, 26.3, 37.7, 53.5, 61.4, 71.9] # treat multiple trials like one-shot
