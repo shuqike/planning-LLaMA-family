@@ -1,1 +1,1 @@
-[+]: The number of correct plans is 57/57=100.0%
+[+]: The number of correct plans is 25/57=43.859649122807014%
