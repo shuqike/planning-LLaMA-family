@@ -186,6 +186,9 @@ def forward_plan(initial_state: str,
     '''-----------------------------------------------------'''
 
     def calc_real_reward(node):
+
+        nonlocal subgoal_memory
+
         goal_statement = node.prompt.split("[GOAL]")[-1].split("[STATE 0]")[0]
         final_goals = re.findall("the [a-z]{0,10} block is on top of the [a-z]{0,10} block", goal_statement)
         new_state = re.search(f'.*{re.escape(prompts["state_prefix"].format(node.depth - 1))}(.*)', node.prompt)[1]
