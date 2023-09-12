@@ -61,7 +61,8 @@ def forward_plan(initial_state: str,
                  sampler: str='heuristic',
                  discount: float=1,
                  speedup_action_batch_size=2,
-                 use_lang_goal=False) -> bool:
+                 use_lang_goal=False,
+                 use_mem_prompt=False) -> bool:
 
     subgoal_memory = ""
 
@@ -210,9 +211,17 @@ def forward_plan(initial_state: str,
             tmp = count_obstacles(topper, new_state)
             print('true topper obstacles', tmp)
             goal_alignment -= tmp
+            # update memory for topper
+            if use_mem_prompt:
+                new_state = re.search(f'.*{re.escape(prompts["state_prefix"].format(cur_node.depth - 1))}(.*)', cur_node.prompt)[1]
+                subgoal_memory += "[STATE]{}\nQuestion:how many blocks are piled on {}?\n[STATE STATUS]{}\n".format(new_state, topper, tmp)
             tmp = count_obstacles(bottomer, new_state)
             print('true bottomer obstacles', tmp)
             goal_alignment -= tmp
+            # update memory for bottomer
+            if use_mem_prompt:
+                new_state = re.search(f'.*{re.escape(prompts["state_prefix"].format(cur_node.depth - 1))}(.*)', cur_node.prompt)[1]
+                subgoal_memory += "[STATE]{}\nQuestion:how many blocks are piled on {}?\n[STATE STATUS]{}\n".format(new_state, bottomer, tmp)
         return goal_alignment
 
     '''-----------------------------------------------------'''
