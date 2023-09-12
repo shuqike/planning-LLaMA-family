@@ -112,6 +112,9 @@ def forward_plan(initial_state: str,
     '''-----------------------------------------------------'''
 
     def v_fn(inp, depth) -> Tuple[str, float]:
+
+        nonlocal subgoal_memory
+
         if depth == 0:
             return inp, 0
         last_state = re.search(f'.*{re.escape(prompts["state_prefix"].format(depth - 1))}(.*)', inp)[1]
