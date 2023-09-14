@@ -45,8 +45,8 @@ plt.title('Blocksworld Step6 Vicuna-13B')
 sample_x = [728, 4621, 10591]
 success_rate_y = [61.4, 79.8, 99.1]
 plt.plot(sample_x, success_rate_y, color=my_cmap(8), marker='o', markersize=9, linestyle='dashed', label='[Domain]Rule-based subgoal')
-sample_x = [784, 5167, 13097]
-success_rate_y = [12.28, 26.3, 42.98]
+sample_x = [784, 5167, 13097, 38518]
+success_rate_y = [12.28, 26.3, 42.98, 57.89]
 plt.plot(sample_x, success_rate_y, color=my_cmap(12), marker='o', markersize=9, linestyle='dashed', label='[Domain]LLM-based subgoal')
 sample_x = [1596, 2394, 3990, 4788, 5586, 6384, 7182, 7980, 8778, 9576, 15960, 28728, 39900, 47880] # treat multiple trials like one-shot
 success_rate_y = [0,  0, 6.1, 7.9, 10.5, 15.7, 16.6, 19.3, 22.8, 26.3, 37.7, 53.5, 61.4, 71.9] # treat multiple trials like one-shot
@@ -59,14 +59,14 @@ plt.show()
 # rafa step4 vicuna13B
 plt.title('Blocksworld Step4 Vicuna-13B')
 '''---------'''
-sample_x = [17100, 15960, 15105, 10260, 7410, 5700, 5130, 2280, 1140, 570]
-success_rate_y = [89, 86, 85.5, 82.99, 75.3, 74.7, 67.5, 57, 39.47, 23.68]
+sample_x = [60, 53, 50, 36, 20, 12, 10, 8, 4, 2]
+success_rate_y = [89, 87.2, 85.5, 82.99, 74.7, 65.789, 62.1, 57, 39.47, 23.68]
 plt.plot(sample_x, success_rate_y, color='r', marker='o', markersize=9, linestyle='dashed', label='MCTS')
 '''---------'''
-sample_x = [456, 684]
-success_rate_y = [71.9, 80.7]
-plt.plot(sample_x, success_rate_y, color='b', marker='o', markersize=9, linestyle='dashed', label='MPC')
+sample_x = [2, 3]
+success_rate_y = [71.9, 71.9]
+plt.plot(sample_x, success_rate_y, color='b', marker='o', markersize=9, linestyle='dashed', label='MPC(b=2)')
 plt.ylabel('Success rate (%)')
-plt.xlabel('Sample')
+plt.xlabel('Trials')
 plt.legend()
 plt.show()
