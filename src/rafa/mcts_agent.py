@@ -140,12 +140,8 @@ def mcts_plan(initial_state: str,
         if sum(meetings) == len(meetings):
             return new_prompt, 1e3
         goal_alignment = 0
-        print('the new state is:', new_state)
-        print('counting goals...')
         for fg in final_goals:
-            print('current fg=', fg)
             if fg in new_state:
-                print('final goal aligned++')
                 goal_alignment += 1
                 continue
             topper = extract_block(
@@ -154,27 +150,19 @@ def mcts_plan(initial_state: str,
             bottomer = extract_block(
                 fg.split("top of")[1]
             )
-            print('topper', topper)
-            print('bottomer', bottomer)
             if bottomer + " is clear" in new_state and 'holding ' + topper in new_state:
-                print('doorway goal++')
                 goal_alignment += 0.5
                 continue
             if use_lang_goal != True:
                 tmp = count_obstacles(topper, new_state)
-                print('true topper obstacles', tmp)
                 goal_alignment -= tmp
                 tmp = count_obstacles(bottomer, new_state)
-                print('true bottomer obstacles', tmp)
                 goal_alignment -= tmp
             else:
                 tmp = llm_count_obstacles(topper, new_state, world_model, subgoal_memory)
-                print('lang topper obstacles', tmp)
                 goal_alignment -= tmp
                 tmp = llm_count_obstacles(bottomer, new_state, world_model, subgoal_memory)
-                print('lang bottomer obstacles', tmp)
                 goal_alignment -= tmp
-        print('vrand=', goal_alignment)
         return new_prompt, goal_alignment
 
     def calc_real_reward(node):
@@ -189,9 +177,7 @@ def mcts_plan(initial_state: str,
             return 1e3
         goal_alignment = 0
         for fg in final_goals:
-            print('current fg=', fg)
             if fg in new_state:
-                print('final goal aligned++')
                 goal_alignment += 1
                 continue
             topper = extract_block(
@@ -200,20 +186,15 @@ def mcts_plan(initial_state: str,
             bottomer = extract_block(
                 fg.split("top of")[1]
             )
-            print('topper', topper)
-            print('bottomer', bottomer)
             if bottomer + " is clear" in new_state and 'holding ' + topper in new_state:
-                print('doorway goal++')
                 goal_alignment += 0.5
                 continue
             tmp = count_obstacles(topper, new_state)
-            print('true topper obstacles', tmp)
             goal_alignment -= tmp
             # update memory for topper
             new_state = re.search(f'.*{re.escape(prompts["state_prefix"].format(cur_node.depth - 1))}(.*)', cur_node.prompt)[1]
             subgoal_memory += "[STATE]{}\nQuestion:how many blocks are piled on {}?\n[STATE STATUS]{}\n".format(new_state, topper, tmp)
             tmp = count_obstacles(bottomer, new_state)
-            print('true bottomer obstacles', tmp)
             goal_alignment -= tmp
             # update memory for bottomer
             new_state = re.search(f'.*{re.escape(prompts["state_prefix"].format(cur_node.depth - 1))}(.*)', cur_node.prompt)[1]
