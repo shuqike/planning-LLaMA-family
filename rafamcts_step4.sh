@@ -5,7 +5,8 @@ CUDA_VISIBLE_DEVICES=6,7,8 nohup python -m torch.distributed.run --master_port 5
 --data data/blocksworld/step_4.json \
 --n_trials 2 \
 --horizon 4 \
---alpha 0.1 \
+--alpha 1 \
+--w_exp 0.5 \
 --model_path lmsys/vicuna-13b-v1.3 \
 --num_gpus 3 \
 --use_lang_goal
