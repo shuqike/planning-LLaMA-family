@@ -166,6 +166,7 @@ class ReasoningTasks():
                  resume_file_idx=0,
                  single_run=10000,
                  alpha=0.5,
+                 w_exp=1,
                  n_trials=3,
                  horizon=10,
                  discount=1,
@@ -216,6 +217,7 @@ class ReasoningTasks():
                 prompts, 
                 self.model, 
                 alpha=alpha,
+                w_exp=w_exp,
                 n_trials=n_trials,
                 horizon=horizon,
                 discount=discount,
@@ -260,6 +262,7 @@ if __name__ == '__main__':
     parser.add_argument('--n_trials', type=int, default=3)
     parser.add_argument('--horizon', type=int, default=10)
     parser.add_argument('--alpha', type=float, default=1, help='Alpha for reward')
+    parser.add_argument('--w_exp', type=float, default=1, help='w_exp for exploration')
     parser.add_argument('--prompt_path', type=str, default="data/blocksworld/my_mcts_prompts_update.json", help='Path to prompts')
     parser.add_argument('--ckpt_path', type=str, default="", help='path to LLaMA checkpoint')
     parser.add_argument('--resume_file_idx', type=int, default=0, help='resume experiment from a certain task')
@@ -292,6 +295,7 @@ if __name__ == '__main__':
         resume_file_idx=args.resume_file_idx,
         single_run=args.single_run,
         alpha=alpha,
+        w_exp=args.w_exp,
         n_trials=args.n_trials,
         horizon=args.horizon,
         discount=args.discount,

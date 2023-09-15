@@ -7,8 +7,8 @@ from src.rafa.tree_search import AbsNode
 
 
 class Mcts:
-    def __init__(self) -> None:
-        self.w_exp = 1
+    def __init__(self, w_exp: float) -> None:
+        self.w_exp = w_exp
         self.Q: dict[AbsNode, float] = defaultdict(lambda : 0.)
         self.N: dict[AbsNode, int] = defaultdict(lambda : 0)
         self.M: dict[AbsNode, float] = defaultdict(lambda : -math.inf)

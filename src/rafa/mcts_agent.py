@@ -56,6 +56,7 @@ def mcts_plan(initial_state: str,
               prompts: dict,
               world_model: QueryLM,
               alpha: float,
+              w_exp: float,
               n_trials: int,
               horizon: int,
               discount: float=1,
@@ -203,7 +204,7 @@ def mcts_plan(initial_state: str,
 
     '''-----------------------------------------------------'''
 
-    planner = Mcts()
+    planner = Mcts(w_exp)
     n_success = 0
     pmpt_list = []
     cur_node = StateNode(
