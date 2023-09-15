@@ -48,7 +48,7 @@ class StateNode(AbsNode):
 
     @property
     def is_terminal(self) -> bool:
-        return self.depth > self.max_depth or self.achieved_goal
+        return self.depth >= self.max_depth or self.achieved_goal
 
 
 def mcts_plan(initial_state: str,
