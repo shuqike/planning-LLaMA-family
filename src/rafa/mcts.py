@@ -143,12 +143,9 @@ class MCTS:
             self.M[node] = max(self.M[node], c_reward)
 
     def _uct(self, node: MCTSNode, log_n_f: float):
-        # print("# in _uct (reward, uct)")
         if self.prior and self.N[node] == 0:
-            # print("## unexplored: ", node.reward, node.reward + self.w_exp * math.sqrt(log_n_f))
             return node.reward + self.w_exp * math.sqrt(log_n_f)
         if self.aggr_child == 'max':
-            # print("## explored: ", self.N[node], self.M[node], self.w_exp * math.sqrt(log_n_f / self.N[node]))
             return self.M[node] + self.w_exp * math.sqrt(log_n_f / self.N[node])
         elif self.aggr_child == 'mean':
             return self.Q[node] / self.N[node] + self.w_exp * math.sqrt(log_n_f / self.N[node])
