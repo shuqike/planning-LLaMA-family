@@ -39,6 +39,7 @@ class Mcts:
     def _select_prior(self, node: AbsNode):
         path = [node]
         while not node.is_terminal:
+            print('sp')
             self._expand(node)
             if len(self.children[node]) == 0:
                 return path
@@ -65,6 +66,7 @@ class Mcts:
             self.M[node] = max(self.M[node], c_reward)
 
     def max_mean_terminal(self, cur: AbsNode, sum=0., cnt=0):
+        print('mmt')
         if cur.is_terminal:
             if cur.visited:
                 return cur, (sum + cur._v_rand + cur._prob_r*cur._alpha) / (cnt + 1)

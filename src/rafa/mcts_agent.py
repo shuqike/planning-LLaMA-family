@@ -216,6 +216,7 @@ def mcts_plan(initial_state: str,
     )
     for _ in range(n_trials):
         while not cur_node.is_terminal:
+            print('ma')
             cur_node = planner(cur_node)
             # update critic
             cur_node._v_rand = calc_real_reward(cur_node)
