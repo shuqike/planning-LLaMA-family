@@ -294,7 +294,6 @@ if __name__ == '__main__':
     local_rank, world_size = setup_model_parallel()
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--task', type=str, default='mcts', help='Task to run t1 = Goal Directed Reasoning')
     parser.add_argument('--model_name', type=str, default='LLaMA', help='Model to use')
     parser.add_argument("--controller-addr", type=str, default="http://localhost:21001")
     parser.add_argument("--worker-address", type=str, default="http://localhost:21002")
@@ -313,7 +312,6 @@ if __name__ == '__main__':
 
 
     args = parser.parse_args()
-    task = args.task
     model_name = args.model_name
     data_path = args.data_path
     rollouts = args.rollouts
@@ -328,8 +326,5 @@ if __name__ == '__main__':
 
     tasks_obj = ReasoningTasks(verbose, model_name=model_name, data_path=data_path, ckpt_path=ckpt_path, model_path=args.model_path, num_gpus=args.num_gpus, controller_addr="http://localhost:21001", worker_address="http://localhost:21002")
 
-    if task == 'mcts':
-        config_file = 'data/blocksworld/bw_config.yaml'
-        tasks_obj.run_mcts(config_file, name=name, prompts="", single_run=args.single_run, rollouts=rollouts, max_depth=max_depth, alpha=alpha, prompt_path=prompt_path)
-    else:
-        raise NotImplementedError
+    config_file = 'data/blocksworld/bw_config.yaml'
+    tasks_obj.run_mcts(config_file, name=name, prompts="", single_run=args.single_run, rollouts=rollouts, max_depth=max_depth, alpha=alpha, prompt_path=prompt_path)
