@@ -45,8 +45,12 @@ plt.title('Blocksworld Step6 Vicuna-13B')
 sample_x = [728, 4621, 10591]
 success_rate_y = [61.4, 79.8, 99.1]
 plt.plot(sample_x, success_rate_y, color=my_cmap(8), marker='o', markersize=9, linestyle='dashed', label='[Domain]Rule-based subgoal')
-sample_x = [784, 5167, 13097, 38518]
-success_rate_y = [12.28, 26.3, 42.98, 57.89]
+'''partial notes
+bad pl6_serd3_sampall(38518, 57.89)
+good pl4_serd4_samp2(28739, 55.26)
+'''
+sample_x = [784, 5167, 13097, 28739]
+success_rate_y = [12.28, 26.3, 42.98, 55.26]
 plt.plot(sample_x, success_rate_y, color=my_cmap(12), marker='o', markersize=9, linestyle='dashed', label='[Domain]LLM-based subgoal')
 sample_x = [1596, 2394, 3990, 4788, 5586, 6384, 7182, 7980, 8778, 9576, 15960, 28728, 39900, 47880] # treat multiple trials like one-shot
 success_rate_y = [0,  0, 6.1, 7.9, 10.5, 15.7, 16.6, 19.3, 22.8, 26.3, 37.7, 53.5, 61.4, 71.9] # treat multiple trials like one-shot
@@ -59,13 +63,17 @@ plt.show()
 # rafa step4 vicuna13B
 plt.title('Blocksworld Step4 Vicuna-13B')
 '''---------'''
-sample_x = [60, 53, 50, 36, 20, 12, 10, 8, 4, 2]
-success_rate_y = [89, 87.2, 85.5, 82.99, 74.7, 65.789, 62.1, 57, 39.47, 23.68]
-plt.plot(sample_x, success_rate_y, color='r', marker='o', markersize=9, linestyle='dashed', label='MCTS')
+sample_x = [60, 53, 50, 36, 20, 12, 10, 8, 5, 4, 2]
+success_rate_y = [89, 87.2, 85.5, 82.99, 74.7, 65.789, 62.1, 57, 44.56, 39.47, 23.68]
+plt.plot(sample_x, success_rate_y, color=my_cmap(8), marker='o', markersize=9, linestyle='dashed', label='MCTS')
 '''---------'''
 sample_x = [2, 3]
 success_rate_y = [71.9, 71.9]
-plt.plot(sample_x, success_rate_y, color='b', marker='o', markersize=9, linestyle='dashed', label='MPC(b=2)')
+plt.plot(sample_x, success_rate_y, color=my_cmap(4), marker='o', markersize=9, linestyle='dashed', label='MPC-bfs(b=2)')
+'''---------'''
+sample_x = [2, 3, 4, 5]
+success_rate_y = [22.8, 30.99, 36.4, 55.99]
+plt.plot(sample_x, success_rate_y, color=my_cmap(12), marker='o', markersize=9, linestyle='dashed', label='MPC-mcts()')
 plt.ylabel('Success rate (%)')
 plt.xlabel('Trials')
 plt.legend()
