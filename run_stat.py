@@ -19,7 +19,10 @@ if __name__ == '__main__':
     for file_name in sample_files:
         with open(os.path.join(data_path, file_name), 'r') as f:
             line = f.readline()
-            num_success, num_sample = line.split(',')
+            try:
+                num_success, num_sample = line.split(',')
+            except:
+                num_success = int(line.strip())
             if args.num_trial:
                 total_success += eval(num_success)
             else:
