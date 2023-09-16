@@ -1,0 +1,13 @@
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+The model weights are not tied. Please use the `tie_weights` method before using the `infer_auto_device` function.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:08<00:17,  8.67s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:16<00:08,  8.38s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:21<00:00,  6.82s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:21<00:00,  7.27s/it]
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+There are 114 files.
+We are dealing with 0-th file now.
+/home/zhihanliu/shuqi_code/planning-LLaMA-family/src/models.py:150: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  tokens[k, : len(t.input_ids[0])] = torch.tensor(t.input_ids)[:self.tokenizer.model_max_length].long()
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
