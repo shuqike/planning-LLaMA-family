@@ -259,14 +259,14 @@ def reasoning_mcts_search(initial_state: str,
     for _ in (pbar := trange(mcts_steps, disable=bool(int(os.environ.get("LOCAL_RANK", -1))), position=0)):
         node = root
         while not node.is_terminal:
-            print('node', node.prompt)
+            # print('node', node.prompt)
             path = mcts.rollout(node)
             max_n, max_r = mcts.max_mean_terminal(root) # max-end-node, max-return
-            print('max_n', max_n.prompt)
+            # print('max_n', max_n.prompt)
 
             next_node = max_n
             while next_node.parent != node: next_node = next_node.parent # find the next-node
-            print('next_node', next_node.prompt)
+            # print('next_node', next_node.prompt)
 
             next_question = node.child_to_question(next_node) # find the corresponding next-question (world change question)
             next_node._r1, next_node.prompt = true_dynamics(next_question, next_node.depth) # receive real env feedback
