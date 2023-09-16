@@ -33,18 +33,18 @@ if __name__ == '__main__':
         print(total_success/len(sample_files))
 
     # sample accounting
-
-    data_path = os.path.join('logs', args.run_name, 'sample')
-    sample_files = os.listdir(data_path)
-    total_sample = 0
-    total_success = 0
-    for file_name in sample_files:
-        with open(os.path.join(data_path, file_name), 'r') as f:
-            line = f.readline()
-            num_success, num_sample = line.split(',')
-            try:
-                total_success += int(num_success)
-            except ValueError:
-                total_success += bool(num_success)
-            total_sample += int(num_sample)
-    print(total_success, total_sample)
+    if not args.num_trial:
+        data_path = os.path.join('logs', args.run_name, 'sample')
+        sample_files = os.listdir(data_path)
+        total_sample = 0
+        total_success = 0
+        for file_name in sample_files:
+            with open(os.path.join(data_path, file_name), 'r') as f:
+                line = f.readline()
+                num_success, num_sample = line.split(',')
+                try:
+                    total_success += int(num_success)
+                except ValueError:
+                    total_success += bool(num_success)
+                total_sample += int(num_sample)
+        print(total_success, total_sample)
