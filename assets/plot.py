@@ -28,10 +28,8 @@ sample_x = [228,439,856,1446,3288,11444,14250,17100]
 success_rate_y = [12.28,15.79,36.84,47.37,64.91,100,100,100]
 plt.plot(sample_x, success_rate_y, color='purple', marker='o', markersize=9, linestyle='dashed', label='[Rough]Rule-based subgoal')
 '''---------'''
-# sample_x = [17100,14250,11400,10260,7980,5700,3705,3420,3135,2850,2565,2280,1995,1710,1425,1140,855,570,285] # wrong stat of mcts4
-# success_rate_y = [100,98,94.74,94.74,92.98,92.98,91.23,91.23,89.47,87.72,84.21,77.19,66.67,50.88,43.86,29.82,22.81,12.28,12.28] # wrong stat of mcts4
-sample_x = [17100, 15960, 15105, 10260, 7410, 5700, 5130, 2280, 1140, 570]
-success_rate_y = [89, 86, 85.5, 82.99, 75.3, 74.7, 67.5, 57, 39.47, 23.68]
+sample_x = [16815, 16245, 14820, 12255, 10545, 8550, 7410, 5415, 4275, 3420, 2850, 2280, 1425, 1140, 855, 570]
+success_rate_y = [86.9759, 86.5, 85.3, 82.9, 80.986, 77.77, 75.3, 68.79, 62.8, 55.7, 48.77, 39.47, 24.21, 19.298, 15.789, 12.28]
 plt.plot(sample_x, success_rate_y, color='r', marker='o', markersize=9, linestyle='dashed', label='MCTS')
 '''---------'''
 plt.ylabel('Success rate (%)')
@@ -63,8 +61,8 @@ plt.show()
 # rafa step4 vicuna13B
 plt.title('Blocksworld Step4 Vicuna-13B')
 '''---------'''
-sample_x = [60, 53, 50, 36, 20, 12, 10, 8, 5, 4, 2]
-success_rate_y = [89, 87.2, 85.5, 82.99, 74.7, 65.789, 62.1, 57, 44.56, 39.47, 23.68]
+sample_x = [59, 57, 52, 43, 37, 30, 26, 19, 15, 12, 10, 8, 5, 4, 3, 2]
+success_rate_y = [86.9759, 86.5, 85.3, 82.9, 80.986, 77.77, 75.3, 68.79, 62.8, 55.7, 48.77, 39.47, 24.21, 19.298, 15.789, 12.28]
 plt.plot(sample_x, success_rate_y, color=my_cmap(8), marker='o', markersize=9, linestyle='dashed', label='MCTS')
 '''---------'''
 sample_x = [2, 3]
@@ -73,7 +71,7 @@ plt.plot(sample_x, success_rate_y, color=my_cmap(4), marker='o', markersize=9, l
 '''---------'''
 sample_x = [2, 3, 4, 5]
 success_rate_y = [22.8, 30.99, 36.4, 55.99]
-plt.plot(sample_x, success_rate_y, color=my_cmap(12), marker='o', markersize=9, linestyle='dashed', label='MPC-mcts()')
+plt.plot(sample_x, success_rate_y, color=my_cmap(12), marker='o', markersize=9, linestyle='dashed', label='MPC-mcts(s=1)')
 plt.ylabel('Success rate (%)')
 plt.xlabel('Trials')
 plt.legend()
