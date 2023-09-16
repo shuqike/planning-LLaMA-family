@@ -61,16 +61,16 @@ plt.show()
 # rafa step4 vicuna13B
 plt.title('Blocksworld Step4 Vicuna-13B')
 '''---------'''
-sample_x = [59, 57, 52, 43, 37, 30, 26, 19, 15, 12, 10, 8, 5, 4, 3, 2]
-success_rate_y = [86.9759, 86.5, 85.3, 82.9, 80.986, 77.77, 75.3, 68.79, 62.8, 55.7, 48.77, 39.47, 24.21, 19.298, 15.789, 12.28]
+sample_x = [59, 57, 52, 43, 37, 30, 26, 19, 15, 12, 10, 8, 6, 5, 4, 3, 2]
+success_rate_y = [86.9759, 86.5, 85.3, 82.9, 80.986, 77.77, 75.3, 68.79, 62.8, 55.7, 48.77, 39.47, 28.65, 24.21, 19.298, 15.789, 12.28]
 plt.plot(sample_x, success_rate_y, color=my_cmap(8), marker='o', markersize=9, linestyle='dashed', label='MCTS')
 '''---------'''
 sample_x = [2, 3]
 success_rate_y = [71.9, 71.9]
 plt.plot(sample_x, success_rate_y, color=my_cmap(4), marker='o', markersize=9, linestyle='dashed', label='MPC-bfs(b=2)')
 '''---------'''
-sample_x = [2, 3, 4, 5]
-success_rate_y = [22.8, 30.99, 36.4, 55.99]
+sample_x = [2, 3, 4, 5, 6]
+success_rate_y = [22.8, 30.99, 36.4, 42.8, 48.2]
 plt.plot(sample_x, success_rate_y, color=my_cmap(12), marker='o', markersize=9, linestyle='dashed', label='MPC-mcts(s=1)')
 plt.ylabel('Success rate (%)')
 plt.xlabel('Trials')
