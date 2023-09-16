@@ -22,7 +22,7 @@ if __name__ == '__main__':
             try:
                 num_success, num_sample = line.split(',')
             except:
-                num_success = int(line.strip())
+                num_success = line.strip()
             if args.num_trial:
                 total_success += eval(num_success)
             else:
