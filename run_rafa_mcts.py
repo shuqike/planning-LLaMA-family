@@ -168,7 +168,7 @@ class ReasoningTasks():
             f.write(final_output)
     # ========================================== TASKS ========================================== #
 
-    def run_mcts(self, config_file, name="", prompts="", single_run=10000, rollouts=10, max_depth=4, alpha=0.5, prompt_path=""):
+    def run_mcts(self, config_file, name="", prompts="", single_run=10000, rollouts=10, max_depth=4, alpha=0.5, prompt_path="", resume_file_idx=0):
         self.read_config(config_file)
 
         # make directory for logs
@@ -197,6 +197,11 @@ class ReasoningTasks():
         total_correct = [0] * mcts_steps
         task_pool = np.arange(n_files) if single_run == 10000 else [single_run]
         for i in task_pool:
+            print(f'We are dealing with {i}-th file now.')
+            if i < resume_file_idx:
+                if self.local_rank == 0:
+                    correct_plans += 1
+                continue
 
             # query = prompts
             cur_instance = self.data_files[i]
@@ -309,6 +314,7 @@ if __name__ == '__main__':
     parser.add_argument('--model_path', type=str, required=True, choices=['lmsys/vicuna-7b-v1.3', 'lmsys/vicuna-13b-v1.3', 'lmsys/vicuna-33b-v1.3'])
     parser.add_argument('--num_gpus', type=int, default=1)
     parser.add_argument('--single_run', type=int, default=10000)
+    parser.add_argument('--resume_file_idx', type=int, default=0, help='resume experiment from a certain task')
 
 
     args = parser.parse_args()
@@ -327,4 +333,4 @@ if __name__ == '__main__':
     tasks_obj = ReasoningTasks(verbose, model_name=model_name, data_path=data_path, ckpt_path=ckpt_path, model_path=args.model_path, num_gpus=args.num_gpus, controller_addr="http://localhost:21001", worker_address="http://localhost:21002")
 
     config_file = 'data/blocksworld/bw_config.yaml'
-    tasks_obj.run_mcts(config_file, name=name, prompts="", single_run=args.single_run, rollouts=rollouts, max_depth=max_depth, alpha=alpha, prompt_path=prompt_path)
+    tasks_obj.run_mcts(config_file, name=name, prompts="", single_run=args.single_run, rollouts=rollouts, max_depth=max_depth, alpha=alpha, prompt_path=prompt_path, resume_file_idx=args.resume_file_idx)

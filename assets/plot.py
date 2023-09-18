@@ -69,8 +69,8 @@ sample_x = [2, 3]
 success_rate_y = [71.9, 71.9]
 plt.plot(sample_x, success_rate_y, color=my_cmap(4), marker='o', markersize=9, linestyle='dashed', label='MPC-bfs(b=2)')
 '''---------'''
-sample_x = [2, 3, 4, 5, 6]
-success_rate_y = [22.8, 30.99, 36.4, 42.8, 48.2]
+sample_x = [2, 3, 4, 5, 6, 8, 10, 12, 15, 19, 26, 30, 37, 43, 52, 57, 59]
+success_rate_y = [22.8, 30.99, 36.4, 42.8, 48.2, 57.89, 64.9, 70.175, 75.43, 79.87, 84.5, 86.6, 89.14, 90.65687, 92.27, 92.95, 93.19]
 plt.plot(sample_x, success_rate_y, color=my_cmap(12), marker='o', markersize=9, linestyle='dashed', label='MPC-mcts(s=1)')
 plt.ylabel('Success rate (%)')
 plt.xlabel('Trials')
