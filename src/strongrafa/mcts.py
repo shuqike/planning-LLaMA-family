@@ -130,6 +130,7 @@ class MCTS:
 
     def memory_propagate(self, path: List[MCTSNode], reward=0.):
         coeff = 1
+        print(path[-1]._r1, path[-1]._r_alpha)
         reward += path[-1]._r1 * (1-path[-1]._r_alpha)
         for node in reversed(path):
             reward = reward * self.discount + node._r0 * node._r_alpha  # use log prob only if not leaf node
