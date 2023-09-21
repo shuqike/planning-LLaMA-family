@@ -113,7 +113,7 @@ plt.show()
 plt.title('Blocksworld Step6 Vicuna-13B')
 '''---------'''
 sample_x = [1, 3, 4, 6, 8, 10, 13, 16, 20, 23, 27, 32, 36, 42, 48, 55, 60]
-success_rate_y = [0, 3.5, 6.14, 10.8, 15.789, 20.175, 25, 30.48, 36, 40, 44.769, 50.49, 54.53, 59.69, 63.669, 67.4, 69.5]
+success_rate_y = [0, 3.8, 7, 12.865, 18.53, 23.3, 28.87989, 34, 40, 43.8, 48, 53, 56.676, 61, 64.6, 68, 70]
 plt.plot(sample_x, success_rate_y, color=my_cmap(12), marker='o', markersize=9, linestyle='dashed', label='RAFA')
 '''---------'''
 sample_x = [1]
@@ -121,7 +121,7 @@ success_rate_y = [40]
 plt.plot(sample_x, success_rate_y, color=my_cmap(4), marker='d', markersize=9, linestyle='dashed', label='CoT(gpt-4)')
 '''---------'''
 sample_x = [1, 3, 4, 6, 8, 10, 13, 16, 20, 23, 27, 32, 36, 42, 48, 55, 60]
-success_rate_y = [0, 0, 0, 1.75, 3.9, 5.96, 9, 11.6, 15.35, 17.696, 20, 23.629, 25.97, 29, 32.38, 35.789, 38.6]
+success_rate_y = [0, 0, 1, 3, 5.59, 8, 12, 15.296, 19.47, 22.27, 25.666, 29.44, 32, 35.359, 38.3, 41, 43.845]
 plt.plot(sample_x, success_rate_y, color=my_cmap(8), marker='o', markersize=9, linestyle='dashed', label='MCTS')
 '''---------'''
 sample_x = [1]
