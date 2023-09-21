@@ -224,7 +224,7 @@ def reasoning_mcts_search(initial_state: str,
         final_goals = re.findall("the [a-z]{0,10} block is on top of the [a-z]{0,10} block", goal_statement)
         meetings = [g in new_state for g in final_goals]
         if sum(meetings) == len(meetings):
-            return new_prompt, 1e3
+            return 1e3, new_prompt, []
         goal_alignment = 0
         for fg in final_goals:
             if fg in new_state:
