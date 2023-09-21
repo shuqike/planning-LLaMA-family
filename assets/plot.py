@@ -108,3 +108,31 @@ plt.ylabel('Success Rate (%)')
 plt.xlabel('Episode')
 plt.legend(loc='lower right')
 plt.show()
+
+# rafa step6 vicuna 13B
+plt.title('Blocksworld Step6 Vicuna-13B')
+'''---------'''
+sample_x = [1, 3, 4, 6, 8, 10, 13, 16, 20, 23, 27, 32, 36, 42, 48, 55, 60]
+success_rate_y = [0, 3.5, 6.14, 10.8, 15.789, 20.175, 25, 30.48, 36, 40, 44.769, 50.49, 54.53, 59.69, 63.669, 67.4, 69.5]
+plt.plot(sample_x, success_rate_y, color=my_cmap(12), marker='o', markersize=9, linestyle='dashed', label='RAFA')
+'''---------'''
+sample_x = [1]
+success_rate_y = [40]
+plt.plot(sample_x, success_rate_y, color=my_cmap(4), marker='d', markersize=9, linestyle='dashed', label='CoT(gpt-4)')
+'''---------'''
+sample_x = [1, 3, 4, 6, 8, 10, 13, 16, 20, 23, 27, 32, 36, 42, 48, 55, 60]
+success_rate_y = [0, 0, 0, 1.75, 3.9, 5.96, 9, 11.6, 15.35, 17.696, 20, 23.629, 25.97, 29, 32.38, 35.789, 38.6]
+plt.plot(sample_x, success_rate_y, color=my_cmap(8), marker='o', markersize=9, linestyle='dashed', label='MCTS')
+'''---------'''
+sample_x = [1]
+success_rate_y = [0]
+plt.plot(sample_x, success_rate_y, color=my_cmap(2), marker='d', markersize=9, linestyle='dashed', label='CoT')
+'''---------'''
+plt.axvline(x=1, color='black', linestyle='-.', alpha=0.2)
+plt.axhline(y=40, color='black', linestyle='-.', alpha=0.2)
+'''---------'''
+plt.ylim(-2, 100)
+plt.ylabel('Success Rate (%)')
+plt.xlabel('Episode')
+plt.legend(loc='lower right')
+plt.show()
