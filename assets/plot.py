@@ -107,9 +107,10 @@ plt.ylim(-2, 100)
 plt.ylabel('Success Rate (%)')
 plt.xlabel('Episode')
 plt.legend(loc='lower right')
-plt.show()
+plt.savefig('step4_13b.png', dpi=600)
 
 # rafa step6 vicuna 13B
+plt.clf()
 plt.title('Blocksworld Step6 Vicuna-13B')
 '''---------'''
 sample_x = [1, 3, 4, 6, 8, 10, 13, 16, 20, 23, 27, 32, 36, 42, 48, 55, 60]
@@ -129,10 +130,11 @@ success_rate_y = [0]
 plt.plot(sample_x, success_rate_y, color=my_cmap(2), marker='d', markersize=9, linestyle='dashed', label='CoT')
 '''---------'''
 plt.axvline(x=1, color='black', linestyle='-.', alpha=0.2)
+plt.axhline(y=0, color='black', linestyle='-.', alpha=0.2)
 plt.axhline(y=40, color='black', linestyle='-.', alpha=0.2)
 '''---------'''
 plt.ylim(-2, 100)
 plt.ylabel('Success Rate (%)')
 plt.xlabel('Episode')
 plt.legend(loc='lower right')
-plt.show()
+plt.savefig('step4_33b.png', dpi=600)
