@@ -81,7 +81,7 @@ class ReasoningMCTSNode(MCTSNode):
 
     @property
     def is_terminal(self):
-        return self._static_terminal() or self.reward < -1
+        return self._static_terminal()
 
     @property
     def reward(self):
