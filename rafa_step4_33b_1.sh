@@ -12,4 +12,5 @@ CUDA_VISIBLE_DEVICES=0,1,2 nohup python -m torch.distributed.run --master_port 5
 --model_path lmsys/vicuna-33b-v1.3 \
 --num_gpus 3 \
 --use_lang_goal \
---use_mem_prompt
+--use_mem_prompt \
+--resume_file_idx 13
