@@ -3,3 +3,4 @@ gpt_sas_plan
 outputs/*
 logs/.DS_Store
 logs/mcts6/.DS_Store
+planning_step6_13b_par.txt
