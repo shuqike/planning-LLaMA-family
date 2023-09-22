@@ -31,10 +31,10 @@ ax.plot(sample_x, success_rate_y, color=color_list[0], linewidth=3, label='RAFA'
 # sample_x = [59, 57, 52, 43, 37, 30, 26, 19, 15, 12, 10, 8, 6, 5, 4, 3, 2]
 # success_rate_y = [86.9759, 86.5, 85.3, 82.9, 80.986, 77.77, 75.3, 68.79, 62.8, 55.7, 48.77, 39.47, 28.65, 24.21, 19.298, 15.789, 12.28]
 # plt.plot(sample_x, success_rate_y, color=my_cmap(8), marker='o', markersize=9, linestyle='dashed', label='MCTS')
-ax.plot([1], [48.77], color=color_list[1], marker='d', markersize=9, label=r'$\texttt{RAP}^{(10)}$')
-ax.plot([1], [68.79], color=color_list[2], marker='d', markersize=9, label=r'$\texttt{RAP}^{(20)}$')
-ax.axhline(y=48.77, color=color_list[1], linewidth=3, linestyle='-.', alpha=0.5)
-ax.axhline(y=68.79, color=color_list[2], linewidth=3, linestyle='-.', alpha=0.5)
+ax.plot([1], [48.77], color=color_list[1], marker='d', markersize=9, label=r'$\text{RAP}^{(10)}$')
+ax.plot([1], [68.79], color=color_list[2], marker='d', markersize=9, label=r'$\text{RAP}^{(20)}$')
+ax.axhline(y=48.77, color=color_list[1], linewidth=3, linestyle='-.', alpha=0.9)
+ax.axhline(y=68.79, color=color_list[2], linewidth=3, linestyle='-.', alpha=0.9)
 '''---------'''
 plt.ylim(-2, 100)
 legend()
