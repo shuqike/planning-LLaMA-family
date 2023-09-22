@@ -78,6 +78,10 @@ plt.savefig('step4_13b.png', dpi=600)
 # rafa step4 vicuna33B
 plt.clf()
 plt.title('Blocksworld Step4 Vicuna-33B')
+# '''---------'''
+# sample_x = [1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 19, 26, 30, 37, 43, 52, 57, 59]
+# success_rate_y = [50.877, 60.5, 67.8, 71.9, 74.7, 77, 80.9, 84, 86, 88.4, 90.674, 93, 94, 95.2, 95.879, 96.59, 96.89, 96.99]
+# plt.plot(sample_x, success_rate_y, color=my_cmap(14), marker='o', markersize=9, linestyle='dashed', label='RAFA-n')
 '''---------'''
 sample_x = [1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 19, 26, 30, 37, 43, 52, 57, 59]
 success_rate_y = [43.8596, 53.5, 62.57, 68.42, 72.98, 76.3, 80.7, 83.5, 85.38, 87.6, 89.658, 91.97, 92.8, 94.12, 94.94, 95.8, 96.18, 96.3128]
