@@ -29,7 +29,6 @@ class ForwardSearch:
     def heuristic_sampler(self, node: AbsNode) -> List[AbsNode]:
         children = node.get_children()
         children.sort(reverse=True, key=lambda x: x._prob_r*x._alpha+x._v_rand)
-        # print('sorted', [(child._prob_r, child._alpha, child._v_rand) for child in children])
         return children[:self.sample_per_node]\
             if self.sample_per_node != 0 else children
 
@@ -61,10 +60,8 @@ class ForwardSearch:
                     c_rwd = c_rwd * self.discount + s._prob_r*s._alpha
                 returns.append(c_rwd + node._v_rand)
             else:
-                # print('father state', node.prompt)
                 children_sample = self.sampler(node)
                 for new_node in children_sample:
-                    # print('children state', new_node.prompt)
                     tmp_path = deepcopy(path)
                     tmp_path.append(new_node)
                     route(new_node, tmp_path)
