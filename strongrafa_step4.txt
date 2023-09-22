@@ -890,3 +890,117 @@ Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.000 not found:   2%|▏         | 1/60 [21:14<10:44:17, 655.21s/it]0.000 not found:   3%|▎         | 2/60 [21:14<10:13:06, 634.25s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+200.000 not found:   3%|▎         | 2/60 [23:22<10:13:06, 634.25s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it] 200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:   5%|▌         | 3/60 [23:22<6:22:36, 402.74s/it]200.000 not found:  80%|████████  | 48/60 [23:22<02:39, 13.27s/it]  200.000 not found:  80%|████████  | 48/60 [23:22<02:39, 13.27s/it]200.000 not found:  80%|████████  | 48/60 [23:22<02:39, 13.27s/it]200.000 not found:  80%|████████  | 48/60 [23:22<02:39, 13.27s/it]200.000 not found:  80%|████████  | 48/60 [23:22<02:39, 13.27s/it]200.000 not found:  80%|████████  | 48/60 [23:22<02:39, 13.27s/it]200.000 not found:  80%|████████  | 48/60 [23:22<02:39, 13.27s/it]200.000 not found:  80%|████████  | 48/60 [23:22<02:39, 13.27s/it]200.000 not found:  80%|████████  | 48/60 [23:22<02:39, 13.27s/it]200.000 not found:  80%|████████  | 48/60 [23:22<02:39, 13.27s/it]200.000 not found:  80%|████████  | 48/60 [23:22<02:39, 13.27s/it]200.000 not found:  80%|████████  | 48/60 [23:22<02:39, 13.27s/it]200.000 not found:  80%|████████  | 48/60 [23:22<02:39, 13.27s/it]200.000 not found: 100%|██████████| 60/60 [23:22<00:00, 23.37s/it]
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+We are dealing with 8-th file now.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+  0%|          | 0/60 [00:00<?, ?it/s]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: -15) local_rank: 0 (pid: 1413125) of binary: /home/zhihanliu/anaconda3/envs/shuqi/bin/python
+Traceback (most recent call last):
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/run.py", line 798, in <module>
+    main()
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 346, in wrapper
+    return f(*args, **kwargs)
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/run.py", line 794, in main
+    run(args)
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/run.py", line 785, in run
+    elastic_launch(
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 250, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+=========================================================
+run_srm.py FAILED
+---------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+---------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2023-09-22_14:55:48
+  host      : nebula.osl.northwestern.edu
+  rank      : 0 (local_rank: 0)
+  exitcode  : -15 (pid: 1413125)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 1413125
+=========================================================
