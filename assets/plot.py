@@ -66,9 +66,12 @@ sample_x = [2, 3, 4, 5, 6, 8, 10, 12, 15, 19, 26, 30, 37, 43, 52, 57, 59]
 success_rate_y = [22.8, 30.99, 36.4, 42.8, 48.2, 57.89, 64.9, 70.175, 75.43, 79.87, 84.5, 86.6, 89.14, 90.65687, 92.27, 92.95, 93.19]
 plt.plot(sample_x, success_rate_y, color=my_cmap(12), marker='o', markersize=9, linestyle='dashed', label='RAFA')
 '''---------'''
-sample_x = [59, 57, 52, 43, 37, 30, 26, 19, 15, 12, 10, 8, 6, 5, 4, 3, 2]
-success_rate_y = [86.9759, 86.5, 85.3, 82.9, 80.986, 77.77, 75.3, 68.79, 62.8, 55.7, 48.77, 39.47, 28.65, 24.21, 19.298, 15.789, 12.28]
-plt.plot(sample_x, success_rate_y, color=my_cmap(8), marker='o', markersize=9, linestyle='dashed', label='MCTS')
+# sample_x = [59, 57, 52, 43, 37, 30, 26, 19, 15, 12, 10, 8, 6, 5, 4, 3, 2]
+# success_rate_y = [86.9759, 86.5, 85.3, 82.9, 80.986, 77.77, 75.3, 68.79, 62.8, 55.7, 48.77, 39.47, 28.65, 24.21, 19.298, 15.789, 12.28]
+# plt.plot(sample_x, success_rate_y, color=my_cmap(8), marker='o', markersize=9, linestyle='dashed', label='MCTS')
+plt.axhline(y=48.77, color=my_cmap(7), linestyle='-.', alpha=0.5, label=r'RAP^{(10)}')
+plt.axhline(y=68.79, color=my_cmap(8), linestyle='-.', alpha=0.5, label=r'RAP^{(20)}')
+'''---------'''
 plt.ylim(-2, 100)
 plt.ylabel('Success Rate (%)')
 plt.xlabel('Episode')
@@ -95,9 +98,11 @@ sample_x = [1]
 success_rate_y = [2]
 plt.plot(sample_x, success_rate_y, color=my_cmap(2), marker='d', markersize=9, linestyle='dashed', label='CoT(LLaMA-33B)')
 '''---------'''
-sample_x = [1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 19, 26, 30, 37, 43, 52, 57, 59]
-success_rate_y = [21, 23.68, 33.33, 39.47, 45.26, 50.29, 57.456, 62.1, 65.789, 69.94, 73.96, 78.6, 80.526, 83.357, 85.4, 87.7, 88.79655, 89.17633]
-plt.plot(sample_x, success_rate_y, color=my_cmap(8), marker='o', markersize=9, linestyle='dashed', label='MCTS')
+# sample_x = [1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 19, 26, 30, 37, 43, 52, 57, 59]
+# success_rate_y = [21, 23.68, 33.33, 39.47, 45.26, 50.29, 57.456, 62.1, 65.789, 69.94, 73.96, 78.6, 80.526, 83.357, 85.4, 87.7, 88.79655, 89.17633]
+# plt.plot(sample_x, success_rate_y, color=my_cmap(8), marker='o', markersize=9, linestyle='dashed', label='MCTS')
+plt.axhline(y=62.1, color=my_cmap(7), linestyle='-.', alpha=0.5, label=r'RAP^{(10)}')
+plt.axhline(y=73.96, color=my_cmap(8), linestyle='-.', alpha=0.5, label=r'RAP^{(20)}')
 '''---------'''
 plt.axvline(x=1, color='black', linestyle='-.', alpha=0.2)
 plt.axhline(y=2, color='black', linestyle='-.', alpha=0.2)
@@ -121,9 +126,11 @@ sample_x = [1]
 success_rate_y = [40]
 plt.plot(sample_x, success_rate_y, color=my_cmap(4), marker='d', markersize=9, linestyle='dashed', label='CoT(gpt-4)')
 '''---------'''
-sample_x = [1, 3, 4, 6, 8, 10, 13, 16, 20, 23, 27, 32, 36, 42, 48, 55, 60]
-success_rate_y = [0, 0, 1, 3, 5.59, 8, 12, 15.296, 19.47, 22.27, 25.666, 29.44, 32, 35.359, 38.3, 41, 43.845]
-plt.plot(sample_x, success_rate_y, color=my_cmap(8), marker='o', markersize=9, linestyle='dashed', label='MCTS')
+# sample_x = [1, 3, 4, 6, 8, 10, 13, 16, 20, 23, 27, 32, 36, 42, 48, 55, 60]
+# success_rate_y = [0, 0, 1, 3, 5.59, 8, 12, 15.296, 19.47, 22.27, 25.666, 29.44, 32, 35.359, 38.3, 41, 43.845]
+# plt.plot(sample_x, success_rate_y, color=my_cmap(8), marker='o', markersize=9, linestyle='dashed', label='MCTS')
+plt.axhline(y=8, color=my_cmap(7), linestyle='-.', alpha=0.5, label=r'RAP^{(10)}')
+plt.axhline(y=19.47, color=my_cmap(8), linestyle='-.', alpha=0.5, label=r'RAP^{(20)}')
 '''---------'''
 sample_x = [1]
 success_rate_y = [0]
@@ -138,3 +145,17 @@ plt.ylabel('Success Rate (%)')
 plt.xlabel('Episode')
 plt.legend(loc='lower right')
 plt.savefig('step6_13b.png', dpi=600)
+
+# rafa step6 vicuna 33B
+plt.clf()
+plt.title('Blocksworld Step6 Vicuna-33B')
+'''---------'''
+sample_x = [1, 3, 4, 6, 8, 10, 13, 16, 20, 23, 27, 32, 36, 42, 48, 55, 60]
+success_rate_y = [14, 23.9766, 27.85, 33.33, 37.28, 40.877, 45.7, 49.89, 54, 56.598, 59.55, 62.7, 64.9, 67.75, 70.23, 72.8, 74.4]
+plt.plot(sample_x, success_rate_y, color=my_cmap(12), marker='o', markersize=9, linestyle='dashed', label='RAFA')
+'''---------'''
+plt.ylim(-2, 100)
+plt.ylabel('Success Rate (%)')
+plt.xlabel('Episode')
+plt.legend(loc='lower right')
+plt.savefig('step6_33b.png', dpi=600)
