@@ -92,30 +92,30 @@ class MCTS:
     def max_terminal(self, cur: MCTSNode):
         if cur.is_terminal:
             if cur.visited:
-                return cur, cur.reward
+                return cur, cur._r1
             else:
                 return cur, -math.inf
         if cur not in self.children:
             return cur, -math.inf
         max_n, max_r = max((self.max_terminal(child) for child in self.children[cur]), key=lambda x: x[1])
-        return max_n, max_r + cur._r0 * cur._r_alpha # use log prob only if not leaf node
+        return max_n, max_r # use log prob only if not leaf node
 
     def max_mean_terminal(self, cur: MCTSNode, sum=0., cnt=0):
         if cur.is_terminal:
             if cur.visited:
-                return cur, (sum + cur.reward) / (cnt + 1)
+                return cur, (sum + cur._r1) / (cnt + 1)
             else:
                 return cur, -math.inf
         if cur not in self.children or not self.children[cur]:
             return cur, -math.inf
         
-        return max((self.max_mean_terminal(child, sum + cur._r0 * cur._r_alpha, cnt + 1) for child in self.children[cur]), key=lambda x: x[1])
+        return max((self.max_mean_terminal(child, sum, cnt + 1) for child in self.children[cur]), key=lambda x: x[1])
 
     def _back_propagate(self, path: list[MCTSNode], reward=0.):
         coeff = 1
-        reward += path[-1]._r1 * (1-path[-1]._r_alpha)
+        reward += path[-1]._r1
         for node in reversed(path):
-            reward = reward * self.discount + node._r0 * node._r_alpha # use log prob only if not leaf node
+            reward = reward * self.discount # use log prob only if not leaf node
             coeff = coeff * self.discount + 1
             if self.aggr_reward == 'mean':
                 c_reward = reward / coeff
@@ -130,9 +130,9 @@ class MCTS:
 
     def memory_propagate(self, path: List[MCTSNode], reward=0.):
         coeff = 1
-        reward += path[-1]._r1 * (1-path[-1]._r_alpha)
+        reward += path[-1]._r1
         for node in reversed(path):
-            reward = reward * self.discount + node._r0 * node._r_alpha  # use log prob only if not leaf node
+            reward = reward * self.discount  # use log prob only if not leaf node
             coeff = coeff * self.discount + 1
             if self.aggr_reward == 'mean':
                 c_reward = reward / coeff
