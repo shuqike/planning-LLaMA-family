@@ -13,4 +13,4 @@ CUDA_VISIBLE_DEVICES=6,7,8 nohup python -m torch.distributed.run --master_port 5
 --num_gpus 3 \
 --use_lang_goal \
 --use_mem_prompt \
---resume_file_idx 80
+--resume_file_idx 106
