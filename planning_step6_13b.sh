@@ -1,6 +1,6 @@
 # id: 
 # cuda id: 
-CUDA_VISIBLE_DEVICES=3,4,5 nohup python -m torch.distributed.run --master_port 1034 --nproc_per_node 1 run_planning.py \
+CUDA_VISIBLE_DEVICES=3,4,5 nohup python -m torch.distributed.run --master_port 39855 --nproc_per_node 1 run_planning.py \
 --model_name Vicuna \
 --name planning_step6_13b \
 --data data/blocksworld/step_6.json \
