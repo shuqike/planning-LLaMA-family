@@ -238,7 +238,6 @@ def forward_plan(initial_state: str,
         sampler=sampler,
         discount=discount
     )
-    n_success = 0
     pmpt_list = []
     cur_node = StateNode(
         prompt=prompts["goal_prefix"] + goal.strip() + "\n" + prompts["state_prefix"].format(0) + " " + initial_state.strip() + "\n",
@@ -248,11 +247,12 @@ def forward_plan(initial_state: str,
         depth=0,
         max_depth=horizon
     )
-    for _ in range(n_trials):
+    for i in range(n_trials):
         while not cur_node.is_terminal:
             cur_node = planner(cur_node)
             # update critic
             cur_node._v_rand = calc_real_reward(cur_node)
-        n_success += cur_node.achieved_goal
         pmpt_list.append(cur_node.prompt)
-    return n_success, pmpt_list
+        if cur_node.achieved_goal:
+            return i, pmpt_list
+    return -1, pmpt_list
