@@ -1,5 +1,5 @@
-# id: 
-# cuda id: 
+# id: 1453336
+# cuda id: 1453403
 CUDA_VISIBLE_DEVICES=0,1,2 nohup python -m torch.distributed.run --master_port 57271 --nproc_per_node 1 run_rafa.py \
 --model_name Vicuna \
 --name rafa_step6_33b \
