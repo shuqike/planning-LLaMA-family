@@ -2,7 +2,7 @@
 > initializing ddp with size 1
 > initializing pipeline with size 1
 The model weights are not tied. Please use the `tie_weights` method before using the `infer_auto_device` function.
-Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:  14%|█▍        | 1/7 [00:08<00:48,  8.05s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:16<00:40,  8.07s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:24<00:32,  8.03s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:32<00:23,  7.98s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:39<00:15,  7.93s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:47<00:07,  7.91s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:52<00:00,  6.86s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:52<00:00,  7.49s/it]
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:  14%|█▍        | 1/7 [00:08<00:52,  8.80s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:17<00:43,  8.64s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:25<00:34,  8.53s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:34<00:25,  8.48s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:42<00:16,  8.44s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:50<00:08,  8.41s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:55<00:00,  7.24s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:55<00:00,  7.96s/it]
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
   0%|          | 0/60 [00:00<?, ?it/s]/home/zhihanliu/shuqi_code/planning-LLaMA-family/src/models.py:150: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
@@ -13,76 +13,147 @@ Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.527 not found:   0%|          | 0/60 [01:16<?, ?it/s]/home/zhihanliu/shuqi_code/planning-LLaMA-family/rap/blocksworld_mcts.py:120: UserWarning: MCTSNode loaded from pickle is read-only; Do not further roll out the tree!
+0.508 not found:   0%|          | 0/60 [01:26<?, ?it/s]/home/zhihanliu/shuqi_code/planning-LLaMA-family/rap/blocksworld_mcts.py:120: UserWarning: MCTSNode loaded from pickle is read-only; Do not further roll out the tree!
   warnings.warn('MCTSNode loaded from pickle is read-only; Do not further roll out the tree!')
-0.527 not found:   2%|▏         | 1/60 [01:16<1:15:29, 76.77s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.527 not found:   2%|▏         | 1/60 [01:53<1:15:29, 76.77s/it]0.527 not found:   3%|▎         | 2/60 [01:53<51:36, 53.38s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.508 not found:   2%|▏         | 1/60 [01:26<1:24:56, 86.38s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.508 not found:   2%|▏         | 1/60 [01:35<1:24:56, 86.38s/it]0.508 not found:   3%|▎         | 2/60 [01:35<39:40, 41.04s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:   3%|▎         | 2/60 [03:17<51:36, 53.38s/it]0.620 not found:   5%|▌         | 3/60 [03:17<1:03:44, 67.10s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:   5%|▌         | 3/60 [03:26<1:03:44, 67.10s/it]0.620 not found:   7%|▋         | 4/60 [03:26<41:19, 44.27s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:   7%|▋         | 4/60 [04:20<41:19, 44.27s/it]0.620 not found:   8%|▊         | 5/60 [04:20<43:41, 47.65s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:   3%|▎         | 2/60 [02:53<39:40, 41.04s/it]0.534 not found:   5%|▌         | 3/60 [02:53<55:08, 58.05s/it]0.534 not found:   5%|▌         | 3/60 [02:53<55:08, 58.05s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:   8%|▊         | 5/60 [05:19<43:41, 47.65s/it]0.620 not found:  10%|█         | 6/60 [05:19<46:35, 51.77s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  10%|█         | 6/60 [05:29<46:35, 51.77s/it]0.620 not found:  12%|█▏        | 7/60 [05:29<33:27, 37.88s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  12%|█▏        | 7/60 [05:41<33:27, 37.88s/it]0.620 not found:  13%|█▎        | 8/60 [05:41<25:47, 29.76s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:   5%|▌         | 3/60 [04:00<55:08, 58.05s/it]0.534 not found:   8%|▊         | 5/60 [04:00<40:24, 44.07s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  13%|█▎        | 8/60 [06:48<25:47, 29.76s/it]0.620 not found:  15%|█▌        | 9/60 [06:48<35:07, 41.33s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  15%|█▌        | 9/60 [06:57<35:07, 41.33s/it]0.620 not found:  17%|█▋        | 10/60 [06:57<26:12, 31.45s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  17%|█▋        | 10/60 [07:06<26:12, 31.45s/it]0.620 not found:  18%|█▊        | 11/60 [07:06<20:08, 24.66s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:   8%|▊         | 5/60 [05:11<40:24, 44.07s/it]0.534 not found:  10%|█         | 6/60 [05:11<46:35, 51.77s/it]0.534 not found:  10%|█         | 6/60 [05:11<46:35, 51.77s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  10%|█         | 6/60 [05:20<46:35, 51.77s/it]0.534 not found:  13%|█▎        | 8/60 [05:20<26:26, 30.52s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  18%|█▊        | 11/60 [08:01<20:08, 24.66s/it]0.620 not found:  20%|██        | 12/60 [08:01<27:01, 33.78s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  13%|█▎        | 8/60 [06:15<26:26, 30.52s/it]0.534 not found:  15%|█▌        | 9/60 [06:15<30:54, 36.36s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  20%|██        | 12/60 [08:59<27:01, 33.78s/it]0.620 not found:  22%|██▏       | 13/60 [08:59<32:06, 41.00s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  15%|█▌        | 9/60 [07:08<30:54, 36.36s/it]0.534 not found:  17%|█▋        | 10/60 [07:08<33:59, 40.78s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  17%|█▋        | 10/60 [08:09<33:59, 40.78s/it]0.534 not found:  18%|█▊        | 11/60 [08:09<37:40, 46.13s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  18%|█▊        | 11/60 [08:57<37:40, 46.13s/it]0.534 not found:  20%|██        | 12/60 [08:57<37:26, 46.80s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  22%|██▏       | 13/60 [10:02<32:06, 41.00s/it]0.620 not found:  23%|██▎       | 14/60 [10:02<36:30, 47.61s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  23%|██▎       | 14/60 [10:29<36:30, 47.61s/it]0.620 not found:  25%|██▌       | 15/60 [10:29<31:14, 41.65s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  25%|██▌       | 15/60 [10:42<31:14, 41.65s/it]0.620 not found:  27%|██▋       | 16/60 [10:42<24:04, 32.84s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  20%|██        | 12/60 [10:08<37:26, 46.80s/it]0.534 not found:  22%|██▏       | 13/60 [10:08<42:00, 53.63s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  27%|██▋       | 16/60 [11:39<24:04, 32.84s/it]0.620 not found:  28%|██▊       | 17/60 [11:39<28:52, 40.29s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  28%|██▊       | 17/60 [11:52<28:52, 40.29s/it]0.620 not found:  30%|███       | 18/60 [11:52<22:19, 31.90s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  22%|██▏       | 13/60 [11:19<42:00, 53.63s/it]0.534 not found:  23%|██▎       | 14/60 [11:19<44:55, 58.59s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  23%|██▎       | 14/60 [11:28<44:55, 58.59s/it]0.534 not found:  25%|██▌       | 15/60 [11:28<33:09, 44.21s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  25%|██▌       | 15/60 [11:38<33:09, 44.21s/it]0.534 not found:  27%|██▋       | 16/60 [11:38<24:53, 33.95s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  30%|███       | 18/60 [12:33<22:19, 31.90s/it]0.620 not found:  32%|███▏      | 19/60 [12:33<23:40, 34.65s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  32%|███▏      | 19/60 [12:42<23:40, 34.65s/it]0.620 not found:  33%|███▎      | 20/60 [12:42<18:01, 27.04s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  33%|███▎      | 20/60 [13:10<18:01, 27.04s/it]0.620 not found:  35%|███▌      | 21/60 [13:10<17:43, 27.28s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  27%|██▋       | 16/60 [12:31<24:53, 33.95s/it]0.534 not found:  28%|██▊       | 17/60 [12:31<28:30, 39.78s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  35%|███▌      | 21/60 [13:47<17:43, 27.28s/it]0.620 not found:  37%|███▋      | 22/60 [13:47<19:07, 30.19s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  37%|███▋      | 22/60 [14:15<19:07, 30.19s/it]0.620 not found:  38%|███▊      | 23/60 [14:15<18:10, 29.49s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  28%|██▊       | 17/60 [13:25<28:30, 39.78s/it]0.534 not found:  30%|███       | 18/60 [13:25<30:43, 43.90s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  38%|███▊      | 23/60 [14:43<18:10, 29.49s/it]0.620 not found:  40%|████      | 24/60 [14:43<17:23, 28.99s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  30%|███       | 18/60 [13:53<30:43, 43.90s/it]0.534 not found:  32%|███▏      | 19/60 [13:53<26:43, 39.11s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  32%|███▏      | 19/60 [14:02<26:43, 39.11s/it]0.534 not found:  33%|███▎      | 20/60 [14:02<20:08, 30.22s/it]0.534 not found:  33%|███▎      | 20/60 [14:02<20:08, 30.22s/it]0.534 not found:  33%|███▎      | 20/60 [14:02<20:08, 30.22s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.620 not found:  40%|████      | 24/60 [15:18<17:23, 28.99s/it]0.620 not found:  42%|████▏     | 25/60 [15:18<17:58, 30.83s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  33%|███▎      | 20/60 [14:37<20:08, 30.22s/it]0.534 not found:  38%|███▊      | 23/60 [14:37<12:13, 19.83s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  38%|███▊      | 23/60 [14:47<12:13, 19.83s/it]0.534 not found:  40%|████      | 24/60 [14:47<10:33, 17.61s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-1.734 not found:  42%|████▏     | 25/60 [15:43<17:58, 30.83s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  43%|████▎     | 26/60 [15:43<16:27, 29.03s/it]1.734 not found:  87%|████████▋ | 52/60 [15:43<00:19,  2.39s/it]1.734 not found:  87%|████████▋ | 52/60 [15:43<00:19,  2.39s/it]1.734 not found:  87%|████████▋ | 52/60 [15:43<00:19,  2.39s/it]1.734 not found:  87%|████████▋ | 52/60 [15:43<00:19,  2.39s/it]1.734 not found:  87%|████████▋ | 52/60 [15:43<00:19,  2.39s/it]1.734 not found:  87%|████████▋ | 52/60 [15:43<00:19,  2.39s/it]1.734 not found:  87%|████████▋ | 52/60 [15:43<00:19,  2.39s/it]1.734 not found:  87%|████████▋ | 52/60 [15:43<00:19,  2.39s/it]1.734 not found:  87%|████████▋ | 52/60 [15:43<00:19,  2.39s/it]1.734 not found: 100%|██████████| 60/60 [15:43<00:00, 15.72s/it]
+0.534 not found:  40%|████      | 24/60 [15:15<10:33, 17.61s/it]0.534 not found:  42%|████▏     | 25/60 [15:15<11:39, 19.98s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  42%|████▏     | 25/60 [15:42<11:39, 19.98s/it]0.534 not found:  43%|████▎     | 26/60 [15:42<12:25, 21.93s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  43%|████▎     | 26/60 [16:21<12:25, 21.93s/it]0.534 not found:  45%|████▌     | 27/60 [16:21<14:31, 26.40s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  45%|████▌     | 27/60 [16:58<14:31, 26.40s/it]0.534 not found:  47%|████▋     | 28/60 [16:58<15:37, 29.28s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  47%|████▋     | 28/60 [17:34<15:37, 29.28s/it]0.534 not found:  48%|████▊     | 29/60 [17:34<16:05, 31.16s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  48%|████▊     | 29/60 [17:59<16:05, 31.16s/it]0.534 not found:  50%|█████     | 30/60 [17:59<14:40, 29.35s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  50%|█████     | 30/60 [18:47<14:40, 29.35s/it]0.534 not found:  52%|█████▏    | 31/60 [18:47<16:44, 34.63s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  52%|█████▏    | 31/60 [19:15<16:44, 34.63s/it]0.534 not found:  53%|█████▎    | 32/60 [19:15<15:13, 32.64s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  53%|█████▎    | 32/60 [19:52<15:13, 32.64s/it]0.534 not found:  55%|█████▌    | 33/60 [19:52<15:15, 33.92s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  55%|█████▌    | 33/60 [20:29<15:15, 33.92s/it]0.534 not found:  57%|█████▋    | 34/60 [20:29<15:05, 34.82s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  57%|█████▋    | 34/60 [20:50<15:05, 34.82s/it]0.534 not found:  58%|█████▊    | 35/60 [20:50<12:53, 30.93s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  58%|█████▊    | 35/60 [21:42<12:53, 30.93s/it]0.534 not found:  60%|██████    | 36/60 [21:42<14:49, 37.07s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  60%|██████    | 36/60 [22:11<14:49, 37.07s/it]0.534 not found:  62%|██████▏   | 37/60 [22:11<13:16, 34.63s/it]0.534 not found:  62%|██████▏   | 37/60 [22:11<13:16, 34.63s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  62%|██████▏   | 37/60 [22:49<13:16, 34.63s/it]0.534 not found:  65%|██████▌   | 39/60 [22:49<09:37, 27.49s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  65%|██████▌   | 39/60 [23:13<09:37, 27.49s/it]0.534 not found:  67%|██████▋   | 40/60 [23:13<08:51, 26.59s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  67%|██████▋   | 40/60 [23:52<08:51, 26.59s/it]0.534 not found:  68%|██████▊   | 41/60 [23:52<09:27, 29.86s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  68%|██████▊   | 41/60 [24:31<09:27, 29.86s/it]0.534 not found:  70%|███████   | 42/60 [24:31<09:42, 32.37s/it]0.534 not found:  70%|███████   | 42/60 [24:31<09:42, 32.37s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  70%|███████   | 42/60 [25:10<09:42, 32.37s/it]0.534 not found:  73%|███████▎  | 44/60 [25:10<07:08, 26.76s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  73%|███████▎  | 44/60 [25:38<07:08, 26.76s/it]0.534 not found:  75%|███████▌  | 45/60 [25:38<06:45, 27.02s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  75%|███████▌  | 45/60 [26:17<06:45, 27.02s/it]0.534 not found:  77%|███████▋  | 46/60 [26:17<07:01, 30.08s/it]0.534 not found:  77%|███████▋  | 46/60 [26:17<07:01, 30.08s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  77%|███████▋  | 46/60 [26:46<07:01, 30.08s/it]0.534 not found:  80%|████████  | 48/60 [26:46<04:42, 23.52s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  80%|████████  | 48/60 [27:15<04:42, 23.52s/it]0.534 not found:  82%|████████▏ | 49/60 [27:15<04:32, 24.76s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  82%|████████▏ | 49/60 [27:57<04:32, 24.76s/it]0.534 not found:  83%|████████▎ | 50/60 [27:57<04:50, 29.08s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  83%|████████▎ | 50/60 [28:38<04:50, 29.08s/it]0.534 not found:  85%|████████▌ | 51/60 [28:38<04:49, 32.21s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  85%|████████▌ | 51/60 [28:50<04:49, 32.21s/it]0.534 not found:  87%|████████▋ | 52/60 [28:50<03:34, 26.83s/it]0.534 not found:  87%|████████▋ | 52/60 [28:50<03:34, 26.83s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  87%|████████▋ | 52/60 [29:30<03:34, 26.83s/it]0.534 not found:  90%|█████████ | 54/60 [29:30<02:21, 23.63s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  90%|█████████ | 54/60 [29:55<02:21, 23.63s/it]0.534 not found:  92%|█████████▏| 55/60 [29:55<02:00, 24.18s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  92%|█████████▏| 55/60 [30:08<02:00, 24.18s/it]0.534 not found:  93%|█████████▎| 56/60 [30:08<01:24, 21.19s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  93%|█████████▎| 56/60 [30:32<01:24, 21.19s/it]0.534 not found:  95%|█████████▌| 57/60 [30:32<01:05, 21.90s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  95%|█████████▌| 57/60 [30:56<01:05, 21.90s/it]0.534 not found:  97%|█████████▋| 58/60 [30:56<00:44, 22.44s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.534 not found:  97%|█████████▋| 58/60 [31:19<00:44, 22.44s/it]0.534 not found:  98%|█████████▊| 59/60 [31:19<00:22, 22.85s/it]0.534 not found:  98%|█████████▊| 59/60 [31:19<00:22, 22.85s/it]0.534 not found: 100%|██████████| 60/60 [31:19<00:00, 31.33s/it]
 [+]: Saving plan in gpt_sas_plan
 [+]: Saving plan in gpt_sas_plan
 [+]: Saving plan in gpt_sas_plan
@@ -151,108 +222,50 @@ Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:   0%|          | 0/60 [01:21<?, ?it/s]0.627 not found:   2%|▏         | 1/60 [01:21<1:20:06, 81.46s/it]0.627 not found:   2%|▏         | 1/60 [01:21<1:20:06, 81.46s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.495 not found:   0%|          | 0/60 [01:20<?, ?it/s]0.495 not found:   2%|▏         | 1/60 [01:20<1:19:30, 80.86s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.495 not found:   2%|▏         | 1/60 [01:49<1:19:30, 80.86s/it]0.495 not found:   3%|▎         | 2/60 [01:49<48:37, 50.30s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:   2%|▏         | 1/60 [02:41<1:20:06, 81.46s/it]0.627 not found:   5%|▌         | 3/60 [02:41<48:23, 50.94s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:   5%|▌         | 3/60 [03:09<48:23, 50.94s/it]0.627 not found:   7%|▋         | 4/60 [03:09<40:05, 42.96s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.587 not found:   3%|▎         | 2/60 [03:09<48:37, 50.30s/it]0.587 not found:   5%|▌         | 3/60 [03:09<1:00:20, 63.51s/it]0.587 not found:   5%|▌         | 3/60 [03:09<1:00:20, 63.51s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.587 not found:   5%|▌         | 3/60 [03:44<1:00:20, 63.51s/it]0.587 not found:   8%|▊         | 5/60 [03:44<34:22, 37.50s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:   7%|▋         | 4/60 [04:06<40:05, 42.96s/it]0.627 not found:   8%|▊         | 5/60 [04:06<43:33, 47.52s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.587 not found:   8%|▊         | 5/60 [05:00<34:22, 37.50s/it]0.587 not found:  10%|█         | 6/60 [05:00<43:46, 48.63s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.587 not found:  10%|█         | 6/60 [05:12<43:46, 48.63s/it]0.587 not found:  12%|█▏        | 7/60 [05:12<33:37, 38.07s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:   8%|▊         | 5/60 [05:27<43:33, 47.52s/it]0.627 not found:  10%|█         | 6/60 [05:27<52:17, 58.11s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  10%|█         | 6/60 [05:36<52:17, 58.11s/it]0.627 not found:  12%|█▏        | 7/60 [05:36<37:46, 42.76s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.587 not found:  12%|█▏        | 7/60 [06:24<33:37, 38.07s/it]0.587 not found:  13%|█▎        | 8/60 [06:24<41:35, 47.99s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  12%|█▏        | 7/60 [06:43<37:46, 42.76s/it]0.627 not found:  13%|█▎        | 8/60 [06:43<43:34, 50.28s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.587 not found:  13%|█▎        | 8/60 [07:31<41:35, 47.99s/it]0.587 not found:  15%|█▌        | 9/60 [07:31<45:30, 53.54s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  13%|█▎        | 8/60 [07:50<43:34, 50.28s/it]0.627 not found:  15%|█▌        | 9/60 [07:50<47:05, 55.41s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.587 not found:  15%|█▌        | 9/60 [08:34<45:30, 53.54s/it]0.587 not found:  17%|█▋        | 10/60 [08:34<47:07, 56.55s/it]0.587 not found:  17%|█▋        | 10/60 [08:34<47:07, 56.55s/it]0.587 not found:  17%|█▋        | 10/60 [08:34<47:07, 56.55s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.587 not found:  17%|█▋        | 10/60 [08:47<47:07, 56.55s/it]0.587 not found:  22%|██▏       | 13/60 [08:47<21:18, 27.19s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  15%|█▌        | 9/60 [09:01<47:05, 55.41s/it]0.627 not found:  17%|█▋        | 10/60 [09:01<50:08, 60.17s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  17%|█▋        | 10/60 [09:10<50:08, 60.17s/it]0.627 not found:  18%|█▊        | 11/60 [09:10<36:32, 44.74s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  18%|█▊        | 11/60 [09:23<36:32, 44.74s/it]0.627 not found:  20%|██        | 12/60 [09:23<27:58, 34.97s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  20%|██        | 12/60 [09:32<27:58, 34.97s/it]0.627 not found:  22%|██▏       | 13/60 [09:32<21:19, 27.23s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  22%|██▏       | 13/60 [10:09<21:19, 27.23s/it]0.627 not found:  23%|██▎       | 14/60 [10:09<23:10, 30.23s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.587 not found:  22%|██▏       | 13/60 [09:40<21:18, 27.19s/it]0.587 not found:  23%|██▎       | 14/60 [09:40<25:05, 32.73s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  23%|██▎       | 14/60 [10:46<23:10, 30.23s/it]0.627 not found:  25%|██▌       | 15/60 [10:46<24:14, 32.32s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  25%|██▌       | 15/60 [11:44<24:14, 32.32s/it]0.627 not found:  27%|██▋       | 16/60 [11:44<29:17, 39.95s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  27%|██▋       | 16/60 [12:46<29:17, 39.95s/it]0.627 not found:  28%|██▊       | 17/60 [12:46<33:22, 46.57s/it]0.627 not found:  28%|██▊       | 17/60 [12:46<33:22, 46.57s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  28%|██▊       | 17/60 [13:40<33:22, 46.57s/it]0.627 not found:  32%|███▏      | 19/60 [13:40<25:35, 37.46s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  32%|███▏      | 19/60 [14:09<25:35, 37.46s/it]0.627 not found:  33%|███▎      | 20/60 [14:09<23:33, 35.33s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  33%|███▎      | 20/60 [15:12<23:33, 35.33s/it]0.627 not found:  35%|███▌      | 21/60 [15:12<27:39, 42.55s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  35%|███▌      | 21/60 [15:51<27:39, 42.55s/it]0.627 not found:  37%|███▋      | 22/60 [15:51<26:22, 41.65s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  37%|███▋      | 22/60 [16:54<26:22, 41.65s/it]0.627 not found:  38%|███▊      | 23/60 [16:54<29:21, 47.60s/it]0.627 not found:  38%|███▊      | 23/60 [16:54<29:21, 47.60s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  38%|███▊      | 23/60 [18:04<29:21, 47.60s/it]0.627 not found:  42%|████▏     | 25/60 [18:04<24:31, 42.03s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  42%|████▏     | 25/60 [18:57<24:31, 42.03s/it]0.627 not found:  43%|████▎     | 26/60 [18:57<25:24, 44.83s/it]0.627 not found:  43%|████▎     | 26/60 [18:57<25:24, 44.83s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  43%|████▎     | 26/60 [19:07<25:24, 44.83s/it]0.627 not found:  47%|████▋     | 28/60 [19:07<15:10, 28.45s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  47%|████▋     | 28/60 [20:00<15:10, 28.45s/it]0.627 not found:  48%|████▊     | 29/60 [20:00<17:38, 34.14s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  48%|████▊     | 29/60 [20:58<17:38, 34.14s/it]0.627 not found:  50%|█████     | 30/60 [20:58<19:56, 39.89s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  50%|█████     | 30/60 [21:56<19:56, 39.89s/it]0.627 not found:  52%|█████▏    | 31/60 [21:56<21:30, 44.49s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  52%|█████▏    | 31/60 [22:50<21:30, 44.49s/it]0.627 not found:  53%|█████▎    | 32/60 [22:50<21:55, 46.97s/it]0.627 not found:  53%|█████▎    | 32/60 [22:50<21:55, 46.97s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.627 not found:  53%|█████▎    | 32/60 [23:18<21:55, 46.97s/it]0.627 not found:  57%|█████▋    | 34/60 [23:19<14:13, 32.82s/it]0.627 not found:  57%|█████▋    | 34/60 [23:19<14:13, 32.82s/it]0.627 not found:  57%|█████▋    | 34/60 [23:19<14:13, 32.82s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-1.738 not found:  57%|█████▋    | 34/60 [23:42<14:13, 32.82s/it]1.738 not found:  62%|██████▏   | 37/60 [23:42<07:58, 20.82s/it]1.738 not found:  62%|██████▏   | 37/60 [23:42<07:58, 20.82s/it]1.738 not found:  62%|██████▏   | 37/60 [23:42<07:58, 20.82s/it]1.738 not found:  62%|██████▏   | 37/60 [23:42<07:58, 20.82s/it]1.738 not found:  62%|██████▏   | 37/60 [23:42<07:58, 20.82s/it]1.738 not found:  62%|██████▏   | 37/60 [23:42<07:58, 20.82s/it]1.738 not found:  62%|██████▏   | 37/60 [23:42<07:58, 20.82s/it]1.738 not found:  62%|██████▏   | 37/60 [23:42<07:58, 20.82s/it]1.738 not found:  62%|██████▏   | 37/60 [23:42<07:58, 20.82s/it]1.738 not found:  62%|██████▏   | 37/60 [23:42<07:58, 20.82s/it]1.738 not found:  62%|██████▏   | 37/60 [23:42<07:58, 20.82s/it]1.738 not found:  62%|██████▏   | 37/60 [23:42<07:58, 20.82s/it]1.738 not found:  62%|██████▏   | 37/60 [23:42<07:58, 20.82s/it]1.738 not found:  62%|██████▏   | 37/60 [23:42<07:58, 20.82s/it]1.738 not found:  62%|██████▏   | 37/60 [23:42<07:58, 20.82s/it]1.738 not found:  85%|████████▌ | 51/60 [23:42<00:44,  4.94s/it]1.738 not found:  85%|████████▌ | 51/60 [23:42<00:44,  4.94s/it]1.738 not found:  85%|████████▌ | 51/60 [23:42<00:44,  4.94s/it]1.738 not found:  85%|████████▌ | 51/60 [23:42<00:44,  4.94s/it]1.738 not found:  85%|████████▌ | 51/60 [23:42<00:44,  4.94s/it]1.738 not found:  85%|████████▌ | 51/60 [23:42<00:44,  4.94s/it]1.738 not found:  93%|█████████▎| 56/60 [23:43<00:14,  3.57s/it]1.738 not found:  93%|█████████▎| 56/60 [23:43<00:14,  3.57s/it]1.738 not found:  93%|█████████▎| 56/60 [23:43<00:14,  3.57s/it]1.738 not found:  93%|█████████▎| 56/60 [23:43<00:14,  3.57s/it]1.738 not found:  93%|█████████▎| 56/60 [23:43<00:14,  3.57s/it]1.738 not found: 100%|██████████| 60/60 [23:43<00:00, 23.72s/it]
+1.785 not found:  23%|██▎       | 14/60 [10:47<25:05, 32.73s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  25%|██▌       | 15/60 [10:47<30:25, 40.58s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found:  68%|██████▊   | 41/60 [10:47<01:20,  4.24s/it]1.785 not found: 100%|██████████| 60/60 [10:47<00:00, 10.80s/it]
 [+]: Saving plan in gpt_sas_plan
 [+]: Saving plan in gpt_sas_plan
 [+]: Saving plan in gpt_sas_plan
@@ -321,11 +334,26 @@ Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.576 not found:   0%|          | 0/60 [01:14<?, ?it/s]0.576 not found:   2%|▏         | 1/60 [01:14<1:13:08, 74.38s/it]0.576 not found:   2%|▏         | 1/60 [01:14<1:13:08, 74.38s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.499 not found:   0%|          | 0/60 [01:34<?, ?it/s]0.499 not found:   2%|▏         | 1/60 [01:34<1:33:20, 94.93s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.526 not found:   2%|▏         | 1/60 [01:59<1:33:20, 94.93s/it]0.526 not found:   3%|▎         | 2/60 [01:59<51:54, 53.69s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-1.829 not found:   2%|▏         | 1/60 [02:06<1:13:08, 74.38s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]  1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found:   5%|▌         | 3/60 [02:06<36:37, 38.56s/it]1.829 not found: 100%|██████████| 60/60 [02:06<00:00,  2.11s/it]
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.680 not found:   3%|▎         | 2/60 [03:24<51:54, 53.69s/it]0.680 not found:   5%|▌         | 3/60 [03:24<1:04:20, 67.73s/it]0.680 not found:   5%|▌         | 3/60 [03:24<1:04:20, 67.73s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+1.841 not found:   5%|▌         | 3/60 [04:01<1:04:20, 67.73s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]  1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]1.841 not found:   8%|▊         | 5/60 [04:01<36:31, 39.85s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+1.841 not found:   8%|▊         | 5/60 [05:20<36:31, 39.85s/it]1.841 not found:  88%|████████▊ | 53/60 [05:20<00:24,  3.52s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+1.841 not found:  88%|████████▊ | 53/60 [05:49<00:24,  3.52s/it]1.841 not found:  90%|█████████ | 54/60 [05:49<00:25,  4.22s/it]1.841 not found:  90%|█████████ | 54/60 [05:49<00:25,  4.22s/it]1.841 not found:  90%|█████████ | 54/60 [05:49<00:25,  4.22s/it]1.841 not found:  90%|█████████ | 54/60 [05:49<00:25,  4.22s/it]1.841 not found:  90%|█████████ | 54/60 [05:49<00:25,  4.22s/it]1.841 not found:  90%|█████████ | 54/60 [05:49<00:25,  4.22s/it]1.841 not found:  90%|█████████ | 54/60 [05:49<00:25,  4.22s/it]1.841 not found: 100%|██████████| 60/60 [05:49<00:00,  5.82s/it]
 [+]: Saving plan in gpt_sas_plan
 [+]: Saving plan in gpt_sas_plan
 [+]: Saving plan in gpt_sas_plan
@@ -394,50 +422,130 @@ Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.546 not found:   0%|          | 0/60 [01:13<?, ?it/s]0.546 not found:   2%|▏         | 1/60 [01:13<1:11:54, 73.13s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.546 not found:   2%|▏         | 1/60 [01:25<1:11:54, 73.13s/it]0.546 not found:   3%|▎         | 2/60 [01:25<36:08, 37.39s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.539 not found:   0%|          | 0/60 [01:20<?, ?it/s]0.539 not found:   2%|▏         | 1/60 [01:20<1:19:35, 80.94s/it]0.539 not found:   2%|▏         | 1/60 [01:20<1:19:35, 80.94s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.546 not found:   3%|▎         | 2/60 [02:20<36:08, 37.39s/it]0.546 not found:   5%|▌         | 3/60 [02:20<43:03, 45.33s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.539 not found:   2%|▏         | 1/60 [02:29<1:19:35, 80.94s/it]0.539 not found:   5%|▌         | 3/60 [02:29<44:09, 46.49s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.546 not found:   5%|▌         | 3/60 [03:42<43:03, 45.33s/it]0.546 not found:   7%|▋         | 4/60 [03:42<55:53, 59.89s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.546 not found:   7%|▋         | 4/60 [04:03<55:53, 59.89s/it]0.546 not found:   8%|▊         | 5/60 [04:03<41:58, 45.79s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.539 not found:   5%|▌         | 3/60 [03:57<44:09, 46.49s/it]0.539 not found:   7%|▋         | 4/60 [03:57<56:49, 60.88s/it]0.539 not found:   7%|▋         | 4/60 [03:57<56:49, 60.88s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.546 not found:   8%|▊         | 5/60 [05:10<41:58, 45.79s/it]0.546 not found:  10%|█         | 6/60 [05:10<47:37, 52.92s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.546 not found:  10%|█         | 6/60 [05:47<47:37, 52.92s/it]0.546 not found:  12%|█▏        | 7/60 [05:47<42:09, 47.73s/it]0.546 not found:  12%|█▏        | 7/60 [05:47<42:09, 47.73s/it]0.546 not found:  12%|█▏        | 7/60 [05:47<42:09, 47.73s/it]0.546 not found:  12%|█▏        | 7/60 [05:47<42:09, 47.73s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.546 not found:  12%|█▏        | 7/60 [06:15<42:09, 47.73s/it]0.546 not found:  18%|█▊        | 11/60 [06:15<17:26, 21.35s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.546 not found:  18%|█▊        | 11/60 [06:53<17:26, 21.35s/it]0.546 not found:  20%|██        | 12/60 [06:53<19:26, 24.31s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.539 not found:   7%|▋         | 4/60 [04:55<56:49, 60.88s/it]0.539 not found:  10%|█         | 6/60 [04:55<40:30, 45.00s/it]0.539 not found:  10%|█         | 6/60 [04:55<40:30, 45.00s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.539 not found:  10%|█         | 6/60 [05:08<40:30, 45.00s/it]0.539 not found:  13%|█▎        | 8/60 [05:08<25:01, 28.88s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.546 not found:  20%|██        | 12/60 [07:50<19:26, 24.31s/it]0.546 not found:  22%|██▏       | 13/60 [07:50<24:37, 31.44s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.539 not found:  13%|█▎        | 8/60 [06:08<25:01, 28.88s/it]0.539 not found:  15%|█▌        | 9/60 [06:08<30:42, 36.14s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.546 not found:  22%|██▏       | 13/60 [08:43<24:37, 31.44s/it]0.546 not found:  23%|██▎       | 14/60 [08:43<27:50, 36.32s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.546 not found:  23%|██▎       | 14/60 [09:20<27:50, 36.32s/it]0.546 not found:  25%|██▌       | 15/60 [09:20<27:22, 36.50s/it]0.546 not found:  25%|██▌       | 15/60 [09:20<27:22, 36.50s/it]0.546 not found:  25%|██▌       | 15/60 [09:20<27:22, 36.50s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.539 not found:  15%|█▌        | 9/60 [06:47<30:42, 36.14s/it]0.539 not found:  17%|█▋        | 10/60 [06:47<30:42, 36.84s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-1.744 not found:  25%|██▌       | 15/60 [10:16<27:22, 36.50s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:16<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:17<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:17<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:17<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:17<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:17<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:17<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:17<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:17<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:17<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:17<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:17<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:17<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:17<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:17<19:10, 27.39s/it]1.744 not found:  30%|███       | 18/60 [10:17<19:10, 27.39s/it]1.744 not found:  85%|████████▌ | 51/60 [10:17<00:27,  3.01s/it]1.744 not found:  85%|████████▌ | 51/60 [10:17<00:27,  3.01s/it]1.744 not found:  85%|████████▌ | 51/60 [10:17<00:27,  3.01s/it]1.744 not found:  85%|████████▌ | 51/60 [10:17<00:27,  3.01s/it]1.744 not found:  85%|████████▌ | 51/60 [10:17<00:27,  3.01s/it]1.744 not found:  85%|████████▌ | 51/60 [10:17<00:27,  3.01s/it]1.744 not found:  85%|████████▌ | 51/60 [10:17<00:27,  3.01s/it]1.744 not found:  85%|████████▌ | 51/60 [10:17<00:27,  3.01s/it]1.744 not found:  85%|████████▌ | 51/60 [10:17<00:27,  3.01s/it]1.744 not found:  85%|████████▌ | 51/60 [10:17<00:27,  3.01s/it]1.744 not found: 100%|██████████| 60/60 [10:17<00:00, 10.28s/it]
+0.573 not found:  17%|█▋        | 10/60 [07:39<30:42, 36.84s/it]0.573 not found:  18%|█▊        | 11/60 [07:39<33:13, 40.69s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  18%|█▊        | 11/60 [08:46<33:13, 40.69s/it]0.573 not found:  20%|██        | 12/60 [08:46<38:11, 47.75s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  20%|██        | 12/60 [09:42<38:11, 47.75s/it]0.573 not found:  22%|██▏       | 13/60 [09:42<39:17, 50.17s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  22%|██▏       | 13/60 [09:51<39:17, 50.17s/it]0.573 not found:  23%|██▎       | 14/60 [09:51<29:31, 38.52s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  23%|██▎       | 14/60 [10:58<29:31, 38.52s/it]0.573 not found:  25%|██▌       | 15/60 [10:58<35:01, 46.69s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  25%|██▌       | 15/60 [11:40<35:01, 46.69s/it]0.573 not found:  27%|██▋       | 16/60 [11:40<33:16, 45.37s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  27%|██▋       | 16/60 [11:50<33:16, 45.37s/it]0.573 not found:  28%|██▊       | 17/60 [11:50<24:54, 34.74s/it]0.573 not found:  28%|██▊       | 17/60 [11:50<24:54, 34.74s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  28%|██▊       | 17/60 [11:59<24:54, 34.74s/it]0.573 not found:  32%|███▏      | 19/60 [11:59<14:21, 21.00s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  32%|███▏      | 19/60 [12:41<14:21, 21.00s/it]0.573 not found:  33%|███▎      | 20/60 [12:41<17:28, 26.21s/it]0.573 not found:  33%|███▎      | 20/60 [12:41<17:28, 26.21s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  33%|███▎      | 20/60 [13:36<17:28, 26.21s/it]0.573 not found:  37%|███▋      | 22/60 [13:36<16:53, 26.66s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  37%|███▋      | 22/60 [14:32<16:53, 26.66s/it]0.573 not found:  38%|███▊      | 23/60 [14:32<20:37, 33.44s/it]0.573 not found:  38%|███▊      | 23/60 [14:32<20:37, 33.44s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  38%|███▊      | 23/60 [15:27<20:37, 33.44s/it]0.573 not found:  42%|████▏     | 25/60 [15:27<18:05, 31.02s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  42%|████▏     | 25/60 [16:04<18:05, 31.02s/it]0.573 not found:  43%|████▎     | 26/60 [16:04<18:19, 32.33s/it]0.573 not found:  43%|████▎     | 26/60 [16:04<18:19, 32.33s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  43%|████▎     | 26/60 [16:28<18:19, 32.33s/it]0.573 not found:  47%|████▋     | 28/60 [16:28<13:08, 24.63s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  47%|████▋     | 28/60 [17:25<13:08, 24.63s/it]0.573 not found:  48%|████▊     | 29/60 [17:25<16:16, 31.50s/it]0.573 not found:  48%|████▊     | 29/60 [17:25<16:16, 31.50s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  48%|████▊     | 29/60 [17:34<16:16, 31.50s/it]0.573 not found:  52%|█████▏    | 31/60 [17:34<10:16, 21.25s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  52%|█████▏    | 31/60 [18:11<10:16, 21.25s/it]0.573 not found:  53%|█████▎    | 32/60 [18:11<11:29, 24.63s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  53%|█████▎    | 32/60 [18:24<11:29, 24.63s/it]0.573 not found:  55%|█████▌    | 33/60 [18:24<09:47, 21.77s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  55%|█████▌    | 33/60 [19:17<09:47, 21.77s/it]0.573 not found:  57%|█████▋    | 34/60 [19:17<12:52, 29.70s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  57%|█████▋    | 34/60 [19:26<12:52, 29.70s/it]0.573 not found:  58%|█████▊    | 35/60 [19:26<10:08, 24.32s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  58%|█████▊    | 35/60 [20:01<10:08, 24.32s/it]0.573 not found:  60%|██████    | 36/60 [20:01<10:54, 27.28s/it]0.573 not found:  60%|██████    | 36/60 [20:01<10:54, 27.28s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  60%|██████    | 36/60 [20:38<10:54, 27.28s/it]0.573 not found:  63%|██████▎   | 38/60 [20:38<08:35, 23.43s/it]0.573 not found:  63%|██████▎   | 38/60 [20:38<08:35, 23.43s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  63%|██████▎   | 38/60 [21:18<08:35, 23.43s/it]0.573 not found:  67%|██████▋   | 40/60 [21:18<07:18, 21.93s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  67%|██████▋   | 40/60 [21:57<07:18, 21.93s/it]0.573 not found:  68%|██████▊   | 41/60 [21:57<08:06, 25.61s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  68%|██████▊   | 41/60 [22:36<08:06, 25.61s/it]0.573 not found:  70%|███████   | 42/60 [22:36<08:38, 28.79s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  70%|███████   | 42/60 [22:45<08:38, 28.79s/it]0.573 not found:  72%|███████▏  | 43/60 [22:45<06:46, 23.89s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  72%|███████▏  | 43/60 [23:23<06:46, 23.89s/it]0.573 not found:  73%|███████▎  | 44/60 [23:23<07:22, 27.68s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  73%|███████▎  | 44/60 [23:32<07:22, 27.68s/it]0.573 not found:  75%|███████▌  | 45/60 [23:32<05:39, 22.64s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  75%|███████▌  | 45/60 [24:09<05:39, 22.64s/it]0.573 not found:  77%|███████▋  | 46/60 [24:09<06:13, 26.68s/it]0.573 not found:  77%|███████▋  | 46/60 [24:09<06:13, 26.68s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  77%|███████▋  | 46/60 [24:34<06:13, 26.68s/it]0.573 not found:  80%|████████  | 48/60 [24:34<04:03, 20.30s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  80%|████████  | 48/60 [25:09<04:03, 20.30s/it]0.573 not found:  82%|████████▏ | 49/60 [25:09<04:22, 23.89s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  82%|████████▏ | 49/60 [25:19<04:22, 23.89s/it]0.573 not found:  83%|████████▎ | 50/60 [25:19<03:21, 20.15s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  83%|████████▎ | 50/60 [25:31<03:21, 20.15s/it]0.573 not found:  85%|████████▌ | 51/60 [25:31<02:42, 18.06s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  85%|████████▌ | 51/60 [26:10<02:42, 18.06s/it]0.573 not found:  87%|████████▋ | 52/60 [26:10<03:11, 23.89s/it]0.573 not found:  87%|████████▋ | 52/60 [26:10<03:11, 23.89s/it]0.573 not found:  87%|████████▋ | 52/60 [26:10<03:11, 23.89s/it]0.573 not found:  87%|████████▋ | 52/60 [26:10<03:11, 23.89s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  87%|████████▋ | 52/60 [26:52<03:11, 23.89s/it]0.573 not found:  93%|█████████▎| 56/60 [26:52<01:02, 15.71s/it]0.573 not found:  93%|█████████▎| 56/60 [26:52<01:02, 15.71s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  93%|█████████▎| 56/60 [27:21<01:02, 15.71s/it]0.573 not found:  97%|█████████▋| 58/60 [27:21<00:30, 15.33s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  97%|█████████▋| 58/60 [27:45<00:30, 15.33s/it]0.573 not found:  98%|█████████▊| 59/60 [27:45<00:16, 16.86s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.573 not found:  98%|█████████▊| 59/60 [27:54<00:16, 16.86s/it]0.573 not found: 100%|██████████| 60/60 [27:54<00:00, 15.32s/it]0.573 not found: 100%|██████████| 60/60 [27:54<00:00, 27.92s/it]
 [+]: Saving plan in gpt_sas_plan
 [+]: Saving plan in gpt_sas_plan
 [+]: Saving plan in gpt_sas_plan
@@ -506,48 +614,69 @@ Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.574 not found:   0%|          | 0/60 [01:14<?, ?it/s]0.574 not found:   2%|▏         | 1/60 [01:14<1:13:40, 74.92s/it]0.574 not found:   2%|▏         | 1/60 [01:14<1:13:40, 74.92s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.574 not found:   2%|▏         | 1/60 [01:53<1:13:40, 74.92s/it]0.574 not found:   5%|▌         | 3/60 [01:53<32:06, 33.81s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:   0%|          | 0/60 [01:15<?, ?it/s]0.732 not found:   2%|▏         | 1/60 [01:15<1:14:28, 75.74s/it]0.732 not found:   2%|▏         | 1/60 [01:15<1:14:28, 75.74s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.574 not found:   5%|▌         | 3/60 [03:08<32:06, 33.81s/it]0.574 not found:   7%|▋         | 4/60 [03:08<44:44, 47.93s/it]0.574 not found:   7%|▋         | 4/60 [03:08<44:44, 47.93s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:   2%|▏         | 1/60 [02:09<1:14:28, 75.74s/it]0.732 not found:   5%|▌         | 3/60 [02:09<37:28, 39.44s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.574 not found:   7%|▋         | 4/60 [04:08<44:44, 47.93s/it]0.574 not found:  10%|█         | 6/60 [04:08<35:07, 39.02s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:   5%|▌         | 3/60 [03:07<37:28, 39.44s/it]0.732 not found:   7%|▋         | 4/60 [03:07<42:45, 45.82s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.574 not found:  10%|█         | 6/60 [05:16<35:07, 39.02s/it]0.574 not found:  12%|█▏        | 7/60 [05:16<41:15, 46.71s/it]0.574 not found:  12%|█▏        | 7/60 [05:16<41:15, 46.71s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.574 not found:  12%|█▏        | 7/60 [05:50<41:15, 46.71s/it]0.574 not found:  15%|█▌        | 9/60 [05:50<28:49, 33.90s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.574 not found:  15%|█▌        | 9/60 [06:47<28:49, 33.90s/it]0.574 not found:  17%|█▋        | 10/60 [06:47<32:48, 39.38s/it]0.574 not found:  17%|█▋        | 10/60 [06:47<32:48, 39.38s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:   7%|▋         | 4/60 [04:20<42:45, 45.82s/it]0.732 not found:   8%|▊         | 5/60 [04:20<50:20, 54.91s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:   8%|▊         | 5/60 [05:14<50:20, 54.91s/it]0.732 not found:  10%|█         | 6/60 [05:14<49:18, 54.78s/it]0.732 not found:  10%|█         | 6/60 [05:14<49:18, 54.78s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:  10%|█         | 6/60 [05:27<49:18, 54.78s/it]0.732 not found:  13%|█▎        | 8/60 [05:27<27:19, 31.54s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.574 not found:  17%|█▋        | 10/60 [07:50<32:48, 39.38s/it]0.574 not found:  20%|██        | 12/60 [07:50<28:59, 36.25s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.574 not found:  20%|██        | 12/60 [08:19<28:59, 36.25s/it]0.574 not found:  22%|██▏       | 13/60 [08:19<27:05, 34.59s/it]0.574 not found:  22%|██▏       | 13/60 [08:19<27:05, 34.59s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.574 not found:  22%|██▏       | 13/60 [08:40<27:05, 34.59s/it]0.574 not found:  25%|██▌       | 15/60 [08:40<18:51, 25.15s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.574 not found:  25%|██▌       | 15/60 [09:09<18:51, 25.15s/it]0.574 not found:  27%|██▋       | 16/60 [09:09<19:01, 25.94s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:  13%|█▎        | 8/60 [05:55<27:19, 31.54s/it]0.732 not found:  15%|█▌        | 9/60 [05:55<26:00, 30.59s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-1.749 not found:  27%|██▋       | 16/60 [10:05<19:01, 25.94s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  28%|██▊       | 17/60 [10:05<23:43, 33.11s/it]1.749 not found:  78%|███████▊  | 47/60 [10:05<00:38,  2.97s/it]1.749 not found:  78%|███████▊  | 47/60 [10:05<00:38,  2.97s/it]1.749 not found:  78%|███████▊  | 47/60 [10:05<00:38,  2.97s/it]1.749 not found:  78%|███████▊  | 47/60 [10:05<00:38,  2.97s/it]1.749 not found:  78%|███████▊  | 47/60 [10:05<00:38,  2.97s/it]1.749 not found:  78%|███████▊  | 47/60 [10:05<00:38,  2.97s/it]1.749 not found:  78%|███████▊  | 47/60 [10:05<00:38,  2.97s/it]1.749 not found:  78%|███████▊  | 47/60 [10:05<00:38,  2.97s/it]1.749 not found:  78%|███████▊  | 47/60 [10:05<00:38,  2.97s/it]1.749 not found:  78%|███████▊  | 47/60 [10:05<00:38,  2.97s/it]1.749 not found:  78%|███████▊  | 47/60 [10:05<00:38,  2.97s/it]1.749 not found:  78%|███████▊  | 47/60 [10:05<00:38,  2.97s/it]1.749 not found:  78%|███████▊  | 47/60 [10:05<00:38,  2.97s/it]1.749 not found:  78%|███████▊  | 47/60 [10:05<00:38,  2.97s/it]1.749 not found: 100%|██████████| 60/60 [10:05<00:00, 10.09s/it]
+0.732 not found:  15%|█▌        | 9/60 [06:44<26:00, 30.59s/it]0.732 not found:  17%|█▋        | 10/60 [06:44<29:39, 35.58s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:  17%|█▋        | 10/60 [07:57<29:39, 35.58s/it]0.732 not found:  18%|█▊        | 11/60 [07:57<37:24, 45.81s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:  18%|█▊        | 11/60 [08:25<37:24, 45.81s/it]0.732 not found:  20%|██        | 12/60 [08:25<32:49, 41.03s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:  20%|██        | 12/60 [09:29<32:49, 41.03s/it]0.732 not found:  22%|██▏       | 13/60 [09:29<37:14, 47.54s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:  22%|██▏       | 13/60 [09:42<37:14, 47.54s/it]0.732 not found:  23%|██▎       | 14/60 [09:42<28:36, 37.31s/it]0.732 not found:  23%|██▎       | 14/60 [09:42<28:36, 37.31s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:  23%|██▎       | 14/60 [10:10<28:36, 37.31s/it]0.732 not found:  27%|██▋       | 16/60 [10:10<19:44, 26.93s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:  27%|██▋       | 16/60 [11:14<19:44, 26.93s/it]0.732 not found:  28%|██▊       | 17/60 [11:14<25:44, 35.93s/it]0.732 not found:  28%|██▊       | 17/60 [11:14<25:44, 35.93s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:  28%|██▊       | 17/60 [11:49<25:44, 35.93s/it]0.732 not found:  32%|███▏      | 19/60 [11:49<19:23, 28.37s/it]0.732 not found:  32%|███▏      | 19/60 [11:49<19:23, 28.37s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:  32%|███▏      | 19/60 [12:18<19:23, 28.37s/it]0.732 not found:  35%|███▌      | 21/60 [12:18<15:05, 23.22s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:  35%|███▌      | 21/60 [12:57<15:05, 23.22s/it]0.732 not found:  37%|███▋      | 22/60 [12:57<16:48, 26.54s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:  37%|███▋      | 22/60 [13:26<16:48, 26.54s/it]0.732 not found:  38%|███▊      | 23/60 [13:26<16:42, 27.08s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.732 not found:  38%|███▊      | 23/60 [13:55<16:42, 27.08s/it]0.732 not found:  40%|████      | 24/60 [13:55<16:31, 27.53s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+1.756 not found:  40%|████      | 24/60 [14:46<16:31, 27.53s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  42%|████▏     | 25/60 [14:46<19:35, 33.57s/it]1.756 not found:  78%|███████▊  | 47/60 [14:46<00:47,  3.65s/it]1.756 not found:  78%|███████▊  | 47/60 [14:46<00:47,  3.65s/it]1.756 not found:  78%|███████▊  | 47/60 [14:46<00:47,  3.65s/it]1.756 not found:  78%|███████▊  | 47/60 [14:46<00:47,  3.65s/it]1.756 not found:  78%|███████▊  | 47/60 [14:46<00:47,  3.65s/it]1.756 not found:  78%|███████▊  | 47/60 [14:46<00:47,  3.65s/it]1.756 not found:  78%|███████▊  | 47/60 [14:46<00:47,  3.65s/it]1.756 not found:  78%|███████▊  | 47/60 [14:46<00:47,  3.65s/it]1.756 not found:  78%|███████▊  | 47/60 [14:46<00:47,  3.65s/it]1.756 not found:  78%|███████▊  | 47/60 [14:46<00:47,  3.65s/it]1.756 not found:  78%|███████▊  | 47/60 [14:46<00:47,  3.65s/it]1.756 not found:  78%|███████▊  | 47/60 [14:46<00:47,  3.65s/it]1.756 not found:  78%|███████▊  | 47/60 [14:46<00:47,  3.65s/it]1.756 not found:  78%|███████▊  | 47/60 [14:46<00:47,  3.65s/it]1.756 not found: 100%|██████████| 60/60 [14:46<00:00, 14.78s/it]
 [+]: Saving plan in gpt_sas_plan
 [+]: Saving plan in gpt_sas_plan
 [+]: Saving plan in gpt_sas_plan
@@ -616,147 +745,90 @@ Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.534 not found:   0%|          | 0/60 [01:34<?, ?it/s]0.534 not found:   2%|▏         | 1/60 [01:34<1:33:24, 94.99s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.534 not found:   2%|▏         | 1/60 [01:47<1:33:24, 94.99s/it]0.534 not found:   3%|▎         | 2/60 [01:47<44:52, 46.42s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.588 not found:   0%|          | 0/60 [01:29<?, ?it/s]0.588 not found:   2%|▏         | 1/60 [01:29<1:27:44, 89.23s/it]0.588 not found:   2%|▏         | 1/60 [01:29<1:27:44, 89.23s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.588 not found:   2%|▏         | 1/60 [02:19<1:27:44, 89.23s/it]0.588 not found:   5%|▌         | 3/60 [02:19<39:46, 41.86s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.534 not found:   3%|▎         | 2/60 [03:03<44:52, 46.42s/it]0.534 not found:   5%|▌         | 3/60 [03:03<56:50, 59.82s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.588 not found:   5%|▌         | 3/60 [03:47<39:46, 41.86s/it]0.588 not found:   7%|▋         | 4/60 [03:47<54:00, 57.86s/it]0.588 not found:   7%|▋         | 4/60 [03:47<54:00, 57.86s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.534 not found:   5%|▌         | 3/60 [04:26<56:50, 59.82s/it]0.534 not found:   7%|▋         | 4/60 [04:26<1:04:28, 69.08s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.534 not found:   7%|▋         | 4/60 [05:24<1:04:28, 69.08s/it]0.534 not found:   8%|▊         | 5/60 [05:24<59:32, 64.95s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.588 not found:   7%|▋         | 4/60 [04:58<54:00, 57.86s/it]0.588 not found:  10%|█         | 6/60 [04:58<42:01, 46.69s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.534 not found:   8%|▊         | 5/60 [06:34<59:32, 64.95s/it]0.534 not found:  10%|█         | 6/60 [06:34<1:00:14, 66.93s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.588 not found:  10%|█         | 6/60 [06:05<42:01, 46.69s/it]0.588 not found:  12%|█▏        | 7/60 [06:05<45:53, 51.95s/it]0.588 not found:  12%|█▏        | 7/60 [06:05<45:53, 51.95s/it]0.588 not found:  12%|█▏        | 7/60 [06:05<45:53, 51.95s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  12%|█▏        | 7/60 [06:53<45:53, 51.95s/it]0.613 not found:  17%|█▋        | 10/60 [06:53<27:31, 33.02s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  17%|█▋        | 10/60 [07:03<27:31, 33.02s/it]0.613 not found:  18%|█▊        | 11/60 [07:03<23:04, 28.26s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  10%|█         | 6/60 [07:59<1:00:14, 66.93s/it]0.643 not found:  12%|█▏        | 7/60 [07:59<1:04:10, 72.66s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  12%|█▏        | 7/60 [08:08<1:04:10, 72.66s/it]0.643 not found:  13%|█▎        | 8/60 [08:08<45:29, 52.49s/it]  0.643 not found:  13%|█▎        | 8/60 [08:08<45:29, 52.49s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  18%|█▊        | 11/60 [07:56<23:04, 28.26s/it]0.613 not found:  20%|██        | 12/60 [07:56<27:06, 33.89s/it]0.613 not found:  20%|██        | 12/60 [07:56<27:06, 33.89s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  13%|█▎        | 8/60 [09:06<45:29, 52.49s/it]0.643 not found:  17%|█▋        | 10/60 [09:06<34:20, 41.21s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  17%|█▋        | 10/60 [09:18<34:20, 41.21s/it]0.643 not found:  18%|█▊        | 11/60 [09:18<27:41, 33.90s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  20%|██        | 12/60 [09:08<27:06, 33.89s/it]0.613 not found:  23%|██▎       | 14/60 [09:08<26:36, 34.71s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  18%|█▊        | 11/60 [10:31<27:41, 33.90s/it]0.643 not found:  20%|██        | 12/60 [10:31<35:22, 44.22s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  20%|██        | 12/60 [10:43<35:22, 44.22s/it]0.643 not found:  22%|██▏       | 13/60 [10:43<27:46, 35.46s/it]0.643 not found:  22%|██▏       | 13/60 [10:43<27:46, 35.46s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  23%|██▎       | 14/60 [10:20<26:36, 34.71s/it]0.613 not found:  25%|██▌       | 15/60 [10:20<32:06, 42.81s/it]0.613 not found:  25%|██▌       | 15/60 [10:20<32:06, 42.81s/it]0.613 not found:  25%|██▌       | 15/60 [10:20<32:06, 42.81s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  22%|██▏       | 13/60 [11:54<27:46, 35.46s/it]0.643 not found:  25%|██▌       | 15/60 [11:54<26:34, 35.43s/it]0.643 not found:  25%|██▌       | 15/60 [11:54<26:34, 35.43s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  25%|██▌       | 15/60 [10:57<32:06, 42.81s/it]0.613 not found:  30%|███       | 18/60 [10:57<19:40, 28.10s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  30%|███       | 18/60 [11:34<19:40, 28.10s/it]0.613 not found:  32%|███▏      | 19/60 [11:34<20:20, 29.76s/it]0.613 not found:  32%|███▏      | 19/60 [11:34<20:20, 29.76s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  25%|██▌       | 15/60 [13:07<26:34, 35.43s/it]0.643 not found:  28%|██▊       | 17/60 [13:07<25:38, 35.78s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  28%|██▊       | 17/60 [13:32<25:38, 35.78s/it]0.643 not found:  30%|███       | 18/60 [13:32<23:23, 33.42s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  32%|███▏      | 19/60 [12:29<20:20, 29.76s/it]0.613 not found:  35%|███▌      | 21/60 [12:29<18:47, 28.91s/it]0.613 not found:  35%|███▌      | 21/60 [12:29<18:47, 28.91s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  35%|███▌      | 21/60 [13:05<18:47, 28.91s/it]0.613 not found:  38%|███▊      | 23/60 [13:05<15:35, 25.28s/it]0.613 not found:  38%|███▊      | 23/60 [13:05<15:35, 25.28s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  30%|███       | 18/60 [14:29<23:23, 33.42s/it]0.643 not found:  32%|███▏      | 19/60 [14:29<26:46, 39.19s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  38%|███▊      | 23/60 [13:59<15:35, 25.28s/it]0.613 not found:  42%|████▏     | 25/60 [13:59<15:07, 25.92s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  32%|███▏      | 19/60 [15:06<26:46, 39.19s/it]0.643 not found:  33%|███▎      | 20/60 [15:06<25:45, 38.65s/it]0.643 not found:  33%|███▎      | 20/60 [15:06<25:45, 38.65s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  42%|████▏     | 25/60 [14:54<15:07, 25.92s/it]0.613 not found:  43%|████▎     | 26/60 [14:54<17:43, 31.27s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  33%|███▎      | 20/60 [15:58<25:45, 38.65s/it]0.643 not found:  37%|███▋      | 22/60 [15:58<21:03, 33.25s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  43%|████▎     | 26/60 [15:22<17:43, 31.27s/it]0.613 not found:  45%|████▌     | 27/60 [15:22<16:47, 30.54s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  45%|████▌     | 27/60 [16:04<16:47, 30.54s/it]0.613 not found:  47%|████▋     | 28/60 [16:04<17:43, 33.23s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  37%|███▋      | 22/60 [16:50<21:03, 33.25s/it]0.643 not found:  38%|███▊      | 23/60 [16:50<23:06, 37.47s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  47%|████▋     | 28/60 [16:32<17:43, 33.23s/it]0.613 not found:  48%|████▊     | 29/60 [16:32<16:28, 31.89s/it]0.613 not found:  48%|████▊     | 29/60 [16:32<16:28, 31.89s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  48%|████▊     | 29/60 [16:52<16:28, 31.89s/it]0.613 not found:  52%|█████▏    | 31/60 [16:52<11:06, 22.97s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  38%|███▊      | 23/60 [17:47<23:06, 37.47s/it]0.643 not found:  40%|████      | 24/60 [17:47<25:29, 42.48s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  52%|█████▏    | 31/60 [17:33<11:06, 22.97s/it]0.613 not found:  53%|█████▎    | 32/60 [17:33<12:38, 27.09s/it]0.613 not found:  53%|█████▎    | 32/60 [17:33<12:38, 27.09s/it]0.613 not found:  53%|█████▎    | 32/60 [17:33<12:38, 27.09s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  53%|█████▎    | 32/60 [18:10<12:38, 27.09s/it]0.613 not found:  58%|█████▊    | 35/60 [18:10<08:14, 19.78s/it]0.613 not found:  58%|█████▊    | 35/60 [18:10<08:14, 19.78s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  40%|████      | 24/60 [18:45<25:29, 42.48s/it]0.643 not found:  42%|████▏     | 25/60 [18:45<27:05, 46.43s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  42%|████▏     | 25/60 [18:54<27:05, 46.43s/it]0.643 not found:  43%|████▎     | 26/60 [18:54<20:35, 36.35s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  43%|████▎     | 26/60 [19:22<20:35, 36.35s/it]0.643 not found:  45%|████▌     | 27/60 [19:22<18:40, 33.97s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.613 not found:  58%|█████▊    | 35/60 [19:05<08:14, 19.78s/it]0.613 not found:  62%|██████▏   | 37/60 [19:05<08:30, 22.19s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  45%|████▌     | 27/60 [20:14<18:40, 33.97s/it]0.643 not found:  47%|████▋     | 28/60 [20:14<20:47, 38.98s/it]0.643 not found:  47%|████▋     | 28/60 [20:14<20:47, 38.98s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  47%|████▋     | 28/60 [21:29<20:47, 38.98s/it]0.643 not found:  50%|█████     | 30/60 [21:29<19:14, 38.49s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  50%|█████     | 30/60 [21:54<19:14, 38.49s/it]0.643 not found:  52%|█████▏    | 31/60 [21:54<17:00, 35.18s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  52%|█████▏    | 31/60 [22:35<17:00, 35.18s/it]0.643 not found:  53%|█████▎    | 32/60 [22:35<17:07, 36.70s/it]0.643 not found:  53%|█████▎    | 32/60 [22:35<17:07, 36.70s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  53%|█████▎    | 32/60 [23:03<17:07, 36.70s/it]0.643 not found:  57%|█████▋    | 34/60 [23:03<11:43, 27.04s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  57%|█████▋    | 34/60 [23:55<11:43, 27.04s/it]0.643 not found:  58%|█████▊    | 35/60 [23:55<13:38, 32.73s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  58%|█████▊    | 35/60 [24:36<13:38, 32.73s/it]0.643 not found:  60%|██████    | 36/60 [24:36<13:55, 34.79s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  60%|██████    | 36/60 [25:27<13:55, 34.79s/it]0.643 not found:  62%|██████▏   | 37/60 [25:27<15:02, 39.23s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  62%|██████▏   | 37/60 [25:55<15:02, 39.23s/it]0.643 not found:  63%|██████▎   | 38/60 [25:55<13:14, 36.12s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  63%|██████▎   | 38/60 [26:08<13:14, 36.12s/it]0.643 not found:  65%|██████▌   | 39/60 [26:08<10:18, 29.47s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  65%|██████▌   | 39/60 [26:32<10:18, 29.47s/it]0.643 not found:  67%|██████▋   | 40/60 [26:32<09:22, 28.15s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  67%|██████▋   | 40/60 [26:45<09:22, 28.15s/it]0.643 not found:  68%|██████▊   | 41/60 [26:45<07:28, 23.59s/it]0.643 not found:  68%|██████▊   | 41/60 [26:45<07:28, 23.59s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  68%|██████▊   | 41/60 [27:26<07:28, 23.59s/it]0.643 not found:  72%|███████▏  | 43/60 [27:26<06:17, 22.19s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  72%|███████▏  | 43/60 [28:21<06:17, 22.19s/it]0.643 not found:  73%|███████▎  | 44/60 [28:21<08:01, 30.12s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  73%|███████▎  | 44/60 [29:12<08:01, 30.12s/it]0.643 not found:  75%|███████▌  | 45/60 [29:12<08:55, 35.69s/it]0.643 not found:  75%|███████▌  | 45/60 [29:12<08:55, 35.69s/it]0.643 not found:  75%|███████▌  | 45/60 [29:12<08:55, 35.69s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  75%|███████▌  | 45/60 [29:40<08:55, 35.69s/it]0.643 not found:  80%|████████  | 48/60 [29:40<04:21, 21.80s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  80%|████████  | 48/60 [29:52<04:21, 21.80s/it]0.643 not found:  82%|████████▏ | 49/60 [29:52<03:39, 19.92s/it]0.643 not found:  82%|████████▏ | 49/60 [29:52<03:39, 19.92s/it]0.643 not found:  82%|████████▏ | 49/60 [29:52<03:39, 19.92s/it]0.643 not found:  82%|████████▏ | 49/60 [29:52<03:39, 19.92s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  82%|████████▏ | 49/60 [30:02<03:39, 19.92s/it]0.643 not found:  88%|████████▊ | 53/60 [30:02<01:13, 10.54s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  88%|████████▊ | 53/60 [30:30<01:13, 10.54s/it]0.643 not found:  90%|█████████ | 54/60 [30:30<01:19, 13.31s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  90%|█████████ | 54/60 [31:05<01:19, 13.31s/it]0.643 not found:  92%|█████████▏| 55/60 [31:05<01:26, 17.37s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  92%|█████████▏| 55/60 [31:44<01:26, 17.37s/it]0.643 not found:  93%|█████████▎| 56/60 [31:44<01:27, 21.92s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  93%|█████████▎| 56/60 [32:25<01:27, 21.92s/it]0.643 not found:  95%|█████████▌| 57/60 [32:25<01:18, 26.33s/it]0.643 not found:  95%|█████████▌| 57/60 [32:25<01:18, 26.33s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  95%|█████████▌| 57/60 [32:53<01:18, 26.33s/it]0.643 not found:  98%|█████████▊| 59/60 [32:53<00:21, 21.40s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.643 not found:  98%|█████████▊| 59/60 [33:02<00:21, 21.40s/it]0.643 not found: 100%|██████████| 60/60 [33:02<00:00, 18.73s/it]0.643 not found: 100%|██████████| 60/60 [33:02<00:00, 33.04s/it]
+1.676 not found:  62%|██████▏   | 37/60 [19:56<08:30, 22.19s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  63%|██████▎   | 38/60 [19:56<10:04, 27.49s/it]1.676 not found:  92%|█████████▏| 55/60 [19:56<00:24,  4.98s/it]1.676 not found:  92%|█████████▏| 55/60 [19:56<00:24,  4.98s/it]1.676 not found:  92%|█████████▏| 55/60 [19:56<00:24,  4.98s/it]1.676 not found:  92%|█████████▏| 55/60 [19:56<00:24,  4.98s/it]1.676 not found:  92%|█████████▏| 55/60 [19:56<00:24,  4.98s/it]1.676 not found:  92%|█████████▏| 55/60 [19:56<00:24,  4.98s/it]1.676 not found: 100%|██████████| 60/60 [19:56<00:00, 19.94s/it]
 [+]: Saving plan in gpt_sas_plan
 [+]: Saving plan in gpt_sas_plan
 [+]: Saving plan in gpt_sas_plan
@@ -825,53 +897,35 @@ Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:   0%|          | 0/60 [01:09<?, ?it/s]0.555 not found:   2%|▏         | 1/60 [01:09<1:08:04, 69.23s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.639 not found:   0%|          | 0/60 [01:24<?, ?it/s]0.639 not found:   2%|▏         | 1/60 [01:24<1:22:38, 84.04s/it]0.639 not found:   2%|▏         | 1/60 [01:24<1:22:38, 84.04s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:   2%|▏         | 1/60 [01:36<1:08:04, 69.23s/it]0.555 not found:   3%|▎         | 2/60 [01:36<43:20, 44.83s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:   3%|▎         | 2/60 [02:34<43:20, 44.83s/it]0.555 not found:   5%|▌         | 3/60 [02:34<47:59, 50.51s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.639 not found:   2%|▏         | 1/60 [01:52<1:22:38, 84.04s/it]0.639 not found:   5%|▌         | 3/60 [01:52<30:52, 32.49s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:   5%|▌         | 3/60 [03:33<47:59, 50.51s/it]0.555 not found:   7%|▋         | 4/60 [03:33<50:21, 53.95s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:   7%|▋         | 4/60 [04:01<50:21, 53.95s/it]0.555 not found:   8%|▊         | 5/60 [04:01<40:47, 44.50s/it]0.555 not found:   8%|▊         | 5/60 [04:01<40:47, 44.50s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:   8%|▊         | 5/60 [04:10<40:47, 44.50s/it]0.555 not found:  12%|█▏        | 7/60 [04:10<21:26, 24.28s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  12%|█▏        | 7/60 [04:19<21:26, 24.28s/it]0.555 not found:  13%|█▎        | 8/60 [04:19<17:35, 20.30s/it]0.555 not found:  13%|█▎        | 8/60 [04:19<17:35, 20.30s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.639 not found:   5%|▌         | 3/60 [02:56<30:52, 32.49s/it]0.639 not found:   7%|▋         | 4/60 [02:56<40:23, 43.28s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  13%|█▎        | 8/60 [04:56<17:35, 20.30s/it]0.555 not found:  17%|█▋        | 10/60 [04:56<16:14, 19.49s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  17%|█▋        | 10/60 [05:37<16:14, 19.49s/it]0.555 not found:  18%|█▊        | 11/60 [05:37<20:01, 24.51s/it]0.555 not found:  18%|█▊        | 11/60 [05:37<20:01, 24.51s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.639 not found:   7%|▋         | 4/60 [04:14<40:23, 43.28s/it]0.639 not found:   8%|▊         | 5/60 [04:14<50:17, 54.87s/it]0.639 not found:   8%|▊         | 5/60 [04:14<50:17, 54.87s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.639 not found:   8%|▊         | 5/60 [04:38<50:17, 54.87s/it]0.639 not found:  12%|█▏        | 7/60 [04:38<30:02, 34.01s/it]0.639 not found:  12%|█▏        | 7/60 [04:38<30:02, 34.01s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  18%|█▊        | 11/60 [06:14<20:01, 24.51s/it]0.555 not found:  22%|██▏       | 13/60 [06:14<17:16, 22.06s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  22%|██▏       | 13/60 [06:38<17:16, 22.06s/it]0.555 not found:  23%|██▎       | 14/60 [06:38<17:21, 22.65s/it]0.555 not found:  23%|██▎       | 14/60 [06:38<17:21, 22.65s/it]0.555 not found:  23%|██▎       | 14/60 [06:39<17:21, 22.65s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  23%|██▎       | 14/60 [06:51<17:21, 22.65s/it]0.555 not found:  28%|██▊       | 17/60 [06:51<09:44, 13.59s/it]0.555 not found:  28%|██▊       | 17/60 [06:51<09:44, 13.59s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  28%|██▊       | 17/60 [07:03<09:44, 13.59s/it]0.555 not found:  32%|███▏      | 19/60 [07:03<07:40, 11.24s/it]0.555 not found:  32%|███▏      | 19/60 [07:03<07:40, 11.24s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  32%|███▏      | 19/60 [07:38<07:40, 11.24s/it]0.555 not found:  35%|███▌      | 21/60 [07:38<08:33, 13.16s/it]0.555 not found:  35%|███▌      | 21/60 [07:38<08:33, 13.16s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  35%|███▌      | 21/60 [07:47<08:33, 13.16s/it]0.555 not found:  38%|███▊      | 23/60 [07:47<06:29, 10.54s/it]0.555 not found:  38%|███▊      | 23/60 [07:47<06:29, 10.54s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.639 not found:  12%|█▏        | 7/60 [05:44<30:02, 34.01s/it]0.639 not found:  15%|█▌        | 9/60 [05:44<28:30, 33.55s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  38%|███▊      | 23/60 [08:15<06:29, 10.54s/it]0.555 not found:  42%|████▏     | 25/60 [08:15<06:44, 11.56s/it]0.555 not found:  42%|████▏     | 25/60 [08:15<06:44, 11.56s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  42%|████▏     | 25/60 [08:27<06:44, 11.56s/it]0.555 not found:  45%|████▌     | 27/60 [08:27<05:27,  9.92s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  45%|████▌     | 27/60 [08:40<05:27,  9.92s/it]0.555 not found:  47%|████▋     | 28/60 [08:40<05:31, 10.36s/it]0.555 not found:  47%|████▋     | 28/60 [08:40<05:31, 10.36s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  47%|████▋     | 28/60 [08:49<05:31, 10.36s/it]0.555 not found:  50%|█████     | 30/60 [08:49<04:13,  8.44s/it]0.555 not found:  50%|█████     | 30/60 [08:49<04:13,  8.44s/it]0.555 not found:  50%|█████     | 30/60 [08:49<04:13,  8.44s/it]0.555 not found:  50%|█████     | 30/60 [08:49<04:13,  8.44s/it]0.555 not found:  50%|█████     | 30/60 [08:49<04:13,  8.44s/it]0.555 not found:  50%|█████     | 30/60 [08:49<04:13,  8.44s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  50%|█████     | 30/60 [09:02<04:13,  8.44s/it]0.555 not found:  60%|██████    | 36/60 [09:02<01:52,  4.67s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  60%|██████    | 36/60 [09:29<01:52,  4.67s/it]0.555 not found:  62%|██████▏   | 37/60 [09:29<02:52,  7.52s/it]0.555 not found:  62%|██████▏   | 37/60 [09:29<02:52,  7.52s/it]0.555 not found:  62%|██████▏   | 37/60 [09:29<02:52,  7.52s/it]0.555 not found:  62%|██████▏   | 37/60 [09:29<02:52,  7.52s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  62%|██████▏   | 37/60 [09:39<02:52,  7.52s/it]0.555 not found:  68%|██████▊   | 41/60 [09:39<01:42,  5.37s/it]0.555 not found:  68%|██████▊   | 41/60 [09:39<01:42,  5.37s/it]0.555 not found:  68%|██████▊   | 41/60 [09:39<01:42,  5.37s/it]0.555 not found:  68%|██████▊   | 41/60 [09:39<01:42,  5.37s/it]0.555 not found:  68%|██████▊   | 41/60 [09:39<01:42,  5.37s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  68%|██████▊   | 41/60 [09:48<01:42,  5.37s/it]0.555 not found:  77%|███████▋  | 46/60 [09:48<00:54,  3.88s/it]0.555 not found:  77%|███████▋  | 46/60 [09:48<00:54,  3.88s/it]0.555 not found:  77%|███████▋  | 46/60 [09:48<00:54,  3.88s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  77%|███████▋  | 46/60 [09:57<00:54,  3.88s/it]0.555 not found:  82%|████████▏ | 49/60 [09:57<00:40,  3.68s/it]0.555 not found:  82%|████████▏ | 49/60 [09:57<00:40,  3.68s/it]0.555 not found:  82%|████████▏ | 49/60 [09:57<00:40,  3.68s/it]0.555 not found:  82%|████████▏ | 49/60 [09:57<00:40,  3.68s/it]0.555 not found:  82%|████████▏ | 49/60 [09:57<00:40,  3.68s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.555 not found:  82%|████████▏ | 49/60 [10:10<00:40,  3.68s/it]0.555 not found:  90%|█████████ | 54/60 [10:10<00:19,  3.21s/it]0.555 not found:  90%|█████████ | 54/60 [10:10<00:19,  3.21s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-1.641 not found:  90%|█████████ | 54/60 [10:34<00:19,  3.21s/it]1.641 not found:  93%|█████████▎| 56/60 [10:34<00:19,  4.87s/it]1.641 not found:  93%|█████████▎| 56/60 [10:34<00:19,  4.87s/it]1.641 not found:  93%|█████████▎| 56/60 [10:34<00:19,  4.87s/it]1.641 not found:  93%|█████████▎| 56/60 [10:34<00:19,  4.87s/it]1.641 not found:  93%|█████████▎| 56/60 [10:34<00:19,  4.87s/it]1.641 not found: 100%|██████████| 60/60 [10:34<00:00, 10.58s/it]
+0.639 not found:  15%|█▌        | 9/60 [06:38<28:30, 33.55s/it]0.639 not found:  17%|█▋        | 10/60 [06:38<31:43, 38.06s/it]0.639 not found:  17%|█▋        | 10/60 [06:38<31:43, 38.06s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+1.836 not found:  17%|█▋        | 10/60 [07:31<31:43, 38.06s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  20%|██        | 12/60 [07:31<26:55, 33.65s/it]1.836 not found:  88%|████████▊ | 53/60 [07:31<00:18,  2.69s/it]1.836 not found:  88%|████████▊ | 53/60 [07:31<00:18,  2.69s/it]1.836 not found:  88%|████████▊ | 53/60 [07:31<00:18,  2.69s/it]1.836 not found:  88%|████████▊ | 53/60 [07:31<00:18,  2.69s/it]1.836 not found:  88%|████████▊ | 53/60 [07:31<00:18,  2.69s/it]1.836 not found:  88%|████████▊ | 53/60 [07:31<00:18,  2.69s/it]1.836 not found:  88%|████████▊ | 53/60 [07:31<00:18,  2.69s/it]1.836 not found:  88%|████████▊ | 53/60 [07:31<00:18,  2.69s/it]1.836 not found: 100%|██████████| 60/60 [07:31<00:00,  7.53s/it]
 [+]: Saving plan in gpt_sas_plan
 [+]: Saving plan in gpt_sas_plan
 [+]: Saving plan in gpt_sas_plan
@@ -940,18 +994,170 @@ Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.505 not found:   0%|          | 0/60 [01:20<?, ?it/s]0.505 not found:   2%|▏         | 1/60 [01:20<1:19:36, 80.96s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.505 not found:   2%|▏         | 1/60 [02:21<1:19:36, 80.96s/it]0.505 not found:   3%|▎         | 2/60 [02:21<1:06:43, 69.02s/it]0.505 not found:   3%|▎         | 2/60 [02:21<1:06:43, 69.02s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:   0%|          | 0/60 [01:15<?, ?it/s]0.553 not found:   2%|▏         | 1/60 [01:15<1:14:11, 75.44s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:   2%|▏         | 1/60 [01:24<1:14:11, 75.44s/it]0.553 not found:   3%|▎         | 2/60 [01:24<35:18, 36.53s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.528 not found:   3%|▎         | 2/60 [03:39<1:06:43, 69.02s/it]0.528 not found:   7%|▋         | 4/60 [03:39<46:56, 50.30s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
-0.528 not found:   7%|▋         | 4/60 [03:52<46:56, 50.30s/it]0.528 not found:   8%|▊         | 5/60 [03:52<35:21, 38.57s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:   3%|▎         | 2/60 [02:47<35:18, 36.53s/it]0.553 not found:   5%|▌         | 3/60 [02:47<54:40, 57.56s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:   5%|▌         | 3/60 [03:28<54:40, 57.56s/it]0.553 not found:   7%|▋         | 4/60 [03:28<47:32, 50.94s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
 Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:   7%|▋         | 4/60 [04:27<47:32, 50.94s/it]0.553 not found:   8%|▊         | 5/60 [04:27<49:25, 53.93s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:   8%|▊         | 5/60 [05:39<49:25, 53.93s/it]0.553 not found:  10%|█         | 6/60 [05:39<54:08, 60.16s/it]0.553 not found:  10%|█         | 6/60 [05:39<54:08, 60.16s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:  10%|█         | 6/60 [06:32<54:08, 60.16s/it]0.553 not found:  13%|█▎        | 8/60 [06:32<37:46, 43.59s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:  13%|█▎        | 8/60 [07:09<37:46, 43.59s/it]0.553 not found:  15%|█▌        | 9/60 [07:09<35:33, 41.83s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:  15%|█▌        | 9/60 [07:18<35:33, 41.83s/it]0.553 not found:  17%|█▋        | 10/60 [07:18<27:30, 33.01s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:  17%|█▋        | 10/60 [08:16<27:30, 33.01s/it]0.553 not found:  18%|█▊        | 11/60 [08:16<32:29, 39.78s/it]0.553 not found:  18%|█▊        | 11/60 [08:16<32:29, 39.78s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:  18%|█▊        | 11/60 [09:18<32:29, 39.78s/it]0.553 not found:  22%|██▏       | 13/60 [09:18<28:09, 35.96s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:  22%|██▏       | 13/60 [09:27<28:09, 35.96s/it]0.553 not found:  23%|██▎       | 14/60 [09:27<22:38, 29.54s/it]0.553 not found:  23%|██▎       | 14/60 [09:27<22:38, 29.54s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:  23%|██▎       | 14/60 [09:55<22:38, 29.54s/it]0.553 not found:  27%|██▋       | 16/60 [09:55<16:58, 23.16s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:  27%|██▋       | 16/60 [10:52<16:58, 23.16s/it]0.553 not found:  28%|██▊       | 17/60 [10:52<22:06, 30.84s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:  28%|██▊       | 17/60 [11:27<22:06, 30.84s/it]0.553 not found:  30%|███       | 18/60 [11:27<22:15, 31.79s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:  30%|███       | 18/60 [11:39<22:15, 31.79s/it]0.553 not found:  32%|███▏      | 19/60 [11:39<18:17, 26.78s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:  32%|███▏      | 19/60 [12:04<18:17, 26.78s/it]0.553 not found:  33%|███▎      | 20/60 [12:04<17:28, 26.21s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.553 not found:  33%|███▎      | 20/60 [12:45<17:28, 26.21s/it]0.553 not found:  35%|███▌      | 21/60 [12:45<19:40, 30.27s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+1.688 not found:  35%|███▌      | 21/60 [13:38<19:40, 30.27s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  37%|███▋      | 22/60 [13:38<23:17, 36.78s/it]1.688 not found:  82%|████████▏ | 49/60 [13:38<00:33,  3.08s/it]1.688 not found:  82%|████████▏ | 49/60 [13:38<00:33,  3.08s/it]1.688 not found:  82%|████████▏ | 49/60 [13:38<00:33,  3.08s/it]1.688 not found:  82%|████████▏ | 49/60 [13:38<00:33,  3.08s/it]1.688 not found:  82%|████████▏ | 49/60 [13:38<00:33,  3.08s/it]1.688 not found:  82%|████████▏ | 49/60 [13:38<00:33,  3.08s/it]1.688 not found:  82%|████████▏ | 49/60 [13:38<00:33,  3.08s/it]1.688 not found:  82%|████████▏ | 49/60 [13:38<00:33,  3.08s/it]1.688 not found:  82%|████████▏ | 49/60 [13:38<00:33,  3.08s/it]1.688 not found:  82%|████████▏ | 49/60 [13:38<00:33,  3.08s/it]1.688 not found:  82%|████████▏ | 49/60 [13:38<00:33,  3.08s/it]1.688 not found:  82%|████████▏ | 49/60 [13:38<00:33,  3.08s/it]1.688 not found: 100%|██████████| 60/60 [13:38<00:00, 13.64s/it]
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+[+]: Saving plan in gpt_sas_plan
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+  0%|          | 0/60 [00:00<?, ?it/s]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.536 not found:   0%|          | 0/60 [01:29<?, ?it/s]0.536 not found:   2%|▏         | 1/60 [01:29<1:27:44, 89.23s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.536 not found:   2%|▏         | 1/60 [01:38<1:27:44, 89.23s/it]0.536 not found:   3%|▎         | 2/60 [01:38<40:48, 42.22s/it]  Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.686 not found:   3%|▎         | 2/60 [02:56<40:48, 42.22s/it]0.686 not found:   5%|▌         | 3/60 [02:56<55:45, 58.70s/it]0.686 not found:   5%|▌         | 3/60 [02:56<55:45, 58.70s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+0.686 not found:   5%|▌         | 3/60 [03:31<55:45, 58.70s/it]0.686 not found:   8%|▊         | 5/60 [03:31<32:27, 35.41s/it]Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+Keyword arguments {'bos': False, 'eos': False} not recognized.
+WARNING:torch.distributed.elastic.agent.server.api:Received 1 death signal, shutting down workers
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 1470331 closing signal SIGHUP
+Traceback (most recent call last):
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/run.py", line 798, in <module>
+    main()
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 346, in wrapper
+    return f(*args, **kwargs)
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/run.py", line 794, in main
+    run(args)
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/run.py", line 785, in run
+    elastic_launch(
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 241, in launch_agent
+    result = agent.run()
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/elastic/metrics/api.py", line 129, in wrapper
+    result = f(*args, **kwargs)
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/elastic/agent/server/api.py", line 723, in run
+    result = self._invoke_run(role)
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/elastic/agent/server/api.py", line 864, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/home/zhihanliu/anaconda3/envs/shuqi/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 62, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 1470265 got signal: 1
