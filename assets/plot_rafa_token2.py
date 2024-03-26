@@ -4,7 +4,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 from plot_utils import *
 config['legend_prop_size'] = 42
-config['xlabel'] = 'Step'
+config['xlabel'] = 'Token'
 config['ylabel'] = 'Success Rate (\%)'
 plt.rc('text', usetex=True)
 plt.rc('text.latex', preamble=r'\usepackage{amsmath}')
@@ -47,7 +47,7 @@ ax.plot(token_x, success_rate_y, color=color_list[0], linewidth=10, label=r'\tex
 n_word = [39380, 59022, 78658, 98276, 117920, 137565, 157208, 196494, 216131, 235745, 392731, 706709, 981273, 1177273]
 token_x = [52507, 78696, 104878, 131035, 157227, 183420, 209611, 261992, 288175, 314327, 523642, 942279, 1308364, 1569698]
 success_rate_y = [23.68, 33.33, 39.47, 44.56, 50, 54.13, 57.23, 62.10, 63.95, 65.78, 74.73, 82.99, 87.22, 89.35]
-plt.plot(token_x, success_rate_y, color=color_list[3], linewidth=10, label=r'\texttt{RAP}')
+plt.plot(token_x, success_rate_y, color=color_list[1], linewidth=10, label=r'\texttt{RAP}')
 # ax.plot([1], [62.1], color=color_list[3], linestyle='dashed', linewidth=10, marker='d', markersize=9, label=r'$\texttt{RAP(trial=10)}$')
 # ax.axhline(y=62.1, color=color_list[3], linewidth=10, linestyle='-.', alpha=0.9)
 # ax.plot([1], [73.96], color=color_list[4], linestyle='dashed', linewidth=10, marker='d', markersize=9, label=r'$\texttt{RAP(trial=20)}$')

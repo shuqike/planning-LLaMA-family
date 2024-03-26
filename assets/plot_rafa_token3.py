@@ -4,7 +4,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 from plot_utils import *
 config['legend_prop_size'] = 42
-config['xlabel'] = 'Step'
+config['xlabel'] = 'Token'
 config['ylabel'] = 'Success Rate (\%)'
 plt.rc('text', usetex=True)
 plt.rc('text.latex', preamble=r'\usepackage{amsmath}')
