@@ -32,6 +32,18 @@ if __name__ == '__main__':
     else:
         print(total_success/len(sample_files))
 
+    # word accounting
+    data_path = os.path.join('logs', args.run_name, 'json')
+    trace_files = os.listdir(data_path)
+    total_words = 0
+    for file_name in trace_files:
+        with open(os.path.join(data_path, file_name), 'r') as f:
+            js_data = json.load(f)
+            for rollout in js_data:
+                total_words += len(rollout['traj'].split())
+
+    print('word cnt', total_words)
+
     # sample accounting
     if not args.num_trial:
         data_path = os.path.join('logs', args.run_name, 'sample')

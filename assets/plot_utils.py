@@ -261,7 +261,7 @@ plt_config_cec = {
     'data_scale': 1,
     'legend_loc': 'best',
     'legend_ncol': 1,
-    'legend_prop_size': 16.0,
+    'legend_prop_size': 42.0,
     'xlabel': 'Time steps(1e5)',
     'ylabel': 'Average Return',
     'xlim': (0, 2.),
@@ -323,7 +323,8 @@ else:
 plt.style.use('seaborn-v0_8-whitegrid')
 # plt.rc('font', family='Times New Roman')
 plt.rc('font', family='DejaVu Sans')
-# matplotlib.rcParams['text.usetex'] = True
+plt.rc('text', usetex=True)
+plt.rc('text.latex', preamble=r'\usepackage{amsmath}')
 plt.clf()
 ax = plt.gca()
 

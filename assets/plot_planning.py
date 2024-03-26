@@ -21,17 +21,17 @@ my_cmap = mpl.colormaps['tab20']
 # plt.show()
 
 # for blocksworld step4 vicuna13B rulegoal
-# sample_x = [232, 856,1446,3288,11444,14250,17100]
-# success_rate_y = [93,100,100,100,100,100,100]
-# plt.plot(sample_x, success_rate_y, color='y', marker='o', markersize=9, linestyle='dashed', label='[Domain]Rule-based subgoal')
+sample_x = [232, 856,1446,3288,11444,14250,17100]
+success_rate_y = [93,100,100,100,100,100,100]
+plt.plot(sample_x, success_rate_y, color='y', marker='o', markersize=9, linestyle='dashed', label='[Domain]Rule-based subgoal')
 '''---------'''
 sample_x = [232, 683, 1434, 3187, 3402, 11832, 14820, 16815]
 success_rate_y = [43.86, 43.86, 73.68, 80.7, 84.21, 100, 100, 100]
 plt.plot(sample_x, success_rate_y, color='b', marker='o', markersize=9, linestyle='dashed', label='PvS')
 '''---------'''
-# sample_x = [228,439,856,1446,3288,11444,14250,17100]
-# success_rate_y = [12.28,15.79,36.84,47.37,64.91,100,100,100]
-# plt.plot(sample_x, success_rate_y, color='purple', marker='o', markersize=9, linestyle='dashed', label='[Rough]Rule-based subgoal')
+sample_x = [228,439,856,1446,3288,11444,14250,17100]
+success_rate_y = [12.28,15.79,36.84,47.37,64.91,100,100,100]
+plt.plot(sample_x, success_rate_y, color='purple', marker='o', markersize=9, linestyle='dashed', label='[Rough]Rule-based subgoal')
 '''---------'''
 sample_x = [16815, 16245, 14820, 12255, 10545, 8550, 7410, 5415, 4275, 3420, 2850, 2280, 1425, 1140, 855, 570]
 success_rate_y = [86.9759, 86.5, 85.3, 82.9, 80.986, 77.77, 75.3, 68.79, 62.8, 55.7, 48.77, 39.47, 24.21, 19.298, 15.789, 12.28]

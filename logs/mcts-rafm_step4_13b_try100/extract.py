@@ -9,9 +9,12 @@ num_trial = args.num_trial
 
 
 succ = 0
+tot_word = 0
 for i in range(57):
     f = open("./json/" + "{:04d}".format(i) + ".json")
     data = json.load(f)
     for j in range(num_trial):
         succ += int(data[j]["correct"])
-print(succ / 57 / num_trial)
+        tot_word += len(data[j]["traj"].split())
+print('succ rate', succ / 57 / num_trial)
+print('word cnt', tot_word)
